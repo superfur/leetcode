@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "\"?5:00\"",
+            "expected": ""
+        },
+        {
+            "input": "\"0?:0?\"",
+            "expected": ""
+        },
+        {
+            "input": "\"??:??\"",
+            "expected": ""
+        }
+    ]
+}

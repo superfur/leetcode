@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "\"BCD\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"BCC\",\"CDE\",\"CEA\",\"FFF\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"AAAA\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"AAB\",\"AAC\",\"BCD\",\"BBE\",\"DEF\"]",
+            "expected": ""
+        }
+    ]
+}

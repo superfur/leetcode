@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"cba\",\"daf\",\"ghi\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"a\",\"b\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"zyx\",\"wvu\",\"tsr\"]",
+            "expected": ""
+        }
+    ]
+}

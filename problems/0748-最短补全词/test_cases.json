@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "\"1s3 PSt\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"step\",\"steps\",\"stripe\",\"stepple\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"1s3 456\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"looks\",\"pest\",\"stew\",\"show\"]",
+            "expected": ""
+        }
+    ]
+}

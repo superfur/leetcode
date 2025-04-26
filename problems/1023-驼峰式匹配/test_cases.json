@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"FooBar\",\"FooBarTest\",\"FootBall\",\"FrameBuffer\",\"ForceFeedBack\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"FB\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"FooBar\",\"FooBarTest\",\"FootBall\",\"FrameBuffer\",\"ForceFeedBack\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"FoBa\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"FooBar\",\"FooBarTest\",\"FootBall\",\"FrameBuffer\",\"ForceFeedBack\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"FoBaT\"",
+            "expected": ""
+        }
+    ]
+}

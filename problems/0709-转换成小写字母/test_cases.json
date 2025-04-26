@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "\"Hello\"",
+            "expected": ""
+        },
+        {
+            "input": "\"here\"",
+            "expected": ""
+        },
+        {
+            "input": "\"LOVELY\"",
+            "expected": ""
+        }
+    ]
+}

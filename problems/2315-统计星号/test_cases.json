@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "\"l|*e*et|c**o|*de|\"",
+            "expected": ""
+        },
+        {
+            "input": "\"iamprogrammer\"",
+            "expected": ""
+        },
+        {
+            "input": "\"yo|uar|e**|b|e***au|tifu|l\"",
+            "expected": ""
+        }
+    ]
+}

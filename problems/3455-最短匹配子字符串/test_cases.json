@@ -1,0 +1,36 @@
+{
+    "test_cases": [
+        {
+            "input": "\"abaacbaecebce\"",
+            "expected": ""
+        },
+        {
+            "input": "\"ba*c*ce\"",
+            "expected": ""
+        },
+        {
+            "input": "\"baccbaadbc\"",
+            "expected": ""
+        },
+        {
+            "input": "\"cc*baa*adb\"",
+            "expected": ""
+        },
+        {
+            "input": "\"a\"",
+            "expected": ""
+        },
+        {
+            "input": "\"**\"",
+            "expected": ""
+        },
+        {
+            "input": "\"madlogic\"",
+            "expected": ""
+        },
+        {
+            "input": "\"*adlogi*\"",
+            "expected": ""
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "test_cases": [
+        {
+            "input": "{\"headers\":{\"df1\":[\"student_id\",\"name\",\"age\"],\"df2\":[\"student_id\",\"name\",\"age\"]},\"rows\":{\"df1\":[[1,\"Mason\",8],[2,\"Ava\",6],[3,\"Taylor\",15],[4,\"Georgia\",17]],\"df2\":[[5,\"Leo\",7],[6,\"Alex\",7]]}}",
+            "expected": ""
+        }
+    ]
+}

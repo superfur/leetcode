@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "\"ADOBECODEBANC\"",
+            "expected": ""
+        },
+        {
+            "input": "\"ABC\"",
+            "expected": ""
+        },
+        {
+            "input": "\"a\"",
+            "expected": ""
+        },
+        {
+            "input": "\"a\"",
+            "expected": ""
+        },
+        {
+            "input": "\"a\"",
+            "expected": ""
+        },
+        {
+            "input": "\"aa\"",
+            "expected": ""
+        }
+    ]
+}

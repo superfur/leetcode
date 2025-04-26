@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"abc\",\"car\",\"ada\",\"racecar\",\"cool\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"notapalindrome\",\"racecar\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"def\",\"ghi\"]",
+            "expected": ""
+        }
+    ]
+}

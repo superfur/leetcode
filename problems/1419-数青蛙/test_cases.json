@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "\"croakcroak\"",
+            "expected": ""
+        },
+        {
+            "input": "\"crcoakroak\"",
+            "expected": ""
+        },
+        {
+            "input": "\"croakcrook\"",
+            "expected": ""
+        }
+    ]
+}

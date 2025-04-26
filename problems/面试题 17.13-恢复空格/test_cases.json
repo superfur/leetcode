@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"looked\",\"just\",\"like\",\"her\",\"brother\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"jesslookedjustliketimherbrother\"",
+            "expected": ""
+        }
+    ]
+}

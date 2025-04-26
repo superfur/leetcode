@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"Solution\",\"randPoint\",\"randPoint\",\"randPoint\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[1.0,0.0,0.0],[],[],[]]",
+            "expected": ""
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"cbd\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"zaaaz\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"bbb\",\"cc\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"a\",\"aa\",\"aaa\",\"aaaa\"]",
+            "expected": ""
+        }
+    ]
+}

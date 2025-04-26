@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"OrderedStream\",\"insert\",\"insert\",\"insert\",\"insert\",\"insert\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[5],[3,\"ccccc\"],[1,\"aaaaa\"],[2,\"bbbbb\"],[5,\"eeeee\"],[4,\"ddddd\"]]",
+            "expected": ""
+        }
+    ]
+}

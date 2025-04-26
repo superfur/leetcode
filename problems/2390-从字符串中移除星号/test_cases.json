@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "\"leet**cod*e\"",
+            "expected": ""
+        },
+        {
+            "input": "\"erase*****\"",
+            "expected": ""
+        }
+    ]
+}

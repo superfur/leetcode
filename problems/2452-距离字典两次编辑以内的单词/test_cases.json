@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"word\",\"note\",\"ants\",\"wood\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"wood\",\"joke\",\"moat\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"yes\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"not\"]",
+            "expected": ""
+        }
+    ]
+}

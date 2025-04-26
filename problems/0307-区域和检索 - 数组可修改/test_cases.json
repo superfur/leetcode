@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"NumArray\",\"sumRange\",\"update\",\"sumRange\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[[1,3,5]],[0,2],[1,2],[0,2]]",
+            "expected": ""
+        }
+    ]
+}

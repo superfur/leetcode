@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "\"this is really a very awesome message\"",
+            "expected": ""
+        },
+        {
+            "input": "9",
+            "expected": ""
+        },
+        {
+            "input": "\"short message\"",
+            "expected": ""
+        },
+        {
+            "input": "15",
+            "expected": ""
+        }
+    ]
+}

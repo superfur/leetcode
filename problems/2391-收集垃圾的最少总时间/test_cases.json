@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"G\",\"P\",\"GP\",\"GG\"]",
+            "expected": ""
+        },
+        {
+            "input": "[2,4,3]",
+            "expected": ""
+        },
+        {
+            "input": "[\"MMM\",\"PGM\",\"GP\"]",
+            "expected": ""
+        },
+        {
+            "input": "[3,10]",
+            "expected": ""
+        }
+    ]
+}

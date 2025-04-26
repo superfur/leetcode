@@ -1,0 +1,36 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"EventEmitter\", \"emit\", \"subscribe\", \"subscribe\", \"emit\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[], [\"firstEvent\"], [\"firstEvent\", \"function cb1() { return 5; }\"],  [\"firstEvent\", \"function cb1() { return 6; }\"], [\"firstEvent\"]]",
+            "expected": ""
+        },
+        {
+            "input": "[\"EventEmitter\", \"subscribe\", \"emit\", \"emit\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[], [\"firstEvent\", \"function cb1(...args) { return args.join(','); }\"], [\"firstEvent\", [1,2,3]], [\"firstEvent\", [3,4,6]]]",
+            "expected": ""
+        },
+        {
+            "input": "[\"EventEmitter\", \"subscribe\", \"emit\", \"unsubscribe\", \"emit\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[], [\"firstEvent\", \"(...args) => args.join(',')\"], [\"firstEvent\", [1,2,3]], [0], [\"firstEvent\", [4,5,6]]]",
+            "expected": ""
+        },
+        {
+            "input": "[\"EventEmitter\", \"subscribe\", \"subscribe\", \"unsubscribe\", \"emit\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[], [\"firstEvent\", \"x => x + 1\"], [\"firstEvent\", \"x => x + 2\"], [0], [\"firstEvent\", [5]]]",
+            "expected": ""
+        }
+    ]
+}

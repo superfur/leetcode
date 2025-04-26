@@ -1,0 +1,44 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"smart\",\"brilliant\",\"studious\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"not\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"this student is studious\",\"the student is smart\"]",
+            "expected": ""
+        },
+        {
+            "input": "[1,2]",
+            "expected": ""
+        },
+        {
+            "input": "2",
+            "expected": ""
+        },
+        {
+            "input": "[\"smart\",\"brilliant\",\"studious\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"not\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"this student is not studious\",\"the student is smart\"]",
+            "expected": ""
+        },
+        {
+            "input": "[1,2]",
+            "expected": ""
+        },
+        {
+            "input": "2",
+            "expected": ""
+        }
+    ]
+}

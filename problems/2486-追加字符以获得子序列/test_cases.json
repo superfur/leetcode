@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "\"coaching\"",
+            "expected": ""
+        },
+        {
+            "input": "\"coding\"",
+            "expected": ""
+        },
+        {
+            "input": "\"abcde\"",
+            "expected": ""
+        },
+        {
+            "input": "\"a\"",
+            "expected": ""
+        },
+        {
+            "input": "\"z\"",
+            "expected": ""
+        },
+        {
+            "input": "\"abcde\"",
+            "expected": ""
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "test_cases": [
+        {
+            "input": "1",
+            "expected": ""
+        },
+        {
+            "input": "32",
+            "expected": ""
+        },
+        {
+            "input": "30",
+            "expected": ""
+        },
+        {
+            "input": "31",
+            "expected": ""
+        },
+        {
+            "input": "0",
+            "expected": ""
+        },
+        {
+            "input": "3",
+            "expected": ""
+        },
+        {
+            "input": "96",
+            "expected": ""
+        },
+        {
+            "input": "0",
+            "expected": ""
+        },
+        {
+            "input": "95",
+            "expected": ""
+        },
+        {
+            "input": "0",
+            "expected": ""
+        }
+    ]
+}

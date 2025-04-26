@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "[[\"phone\",\"blue\",\"pixel\"],[\"computer\",\"silver\",\"lenovo\"],[\"phone\",\"gold\",\"iphone\"]]",
+            "expected": ""
+        },
+        {
+            "input": "\"color\"",
+            "expected": ""
+        },
+        {
+            "input": "\"silver\"",
+            "expected": ""
+        },
+        {
+            "input": "[[\"phone\",\"blue\",\"pixel\"],[\"computer\",\"silver\",\"phone\"],[\"phone\",\"gold\",\"iphone\"]]",
+            "expected": ""
+        },
+        {
+            "input": "\"type\"",
+            "expected": ""
+        },
+        {
+            "input": "\"phone\"",
+            "expected": ""
+        }
+    ]
+}

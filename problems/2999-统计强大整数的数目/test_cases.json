@@ -1,0 +1,52 @@
+{
+    "test_cases": [
+        {
+            "input": "1",
+            "expected": ""
+        },
+        {
+            "input": "6000",
+            "expected": ""
+        },
+        {
+            "input": "4",
+            "expected": ""
+        },
+        {
+            "input": "\"124\"",
+            "expected": ""
+        },
+        {
+            "input": "15",
+            "expected": ""
+        },
+        {
+            "input": "215",
+            "expected": ""
+        },
+        {
+            "input": "6",
+            "expected": ""
+        },
+        {
+            "input": "\"10\"",
+            "expected": ""
+        },
+        {
+            "input": "1000",
+            "expected": ""
+        },
+        {
+            "input": "2000",
+            "expected": ""
+        },
+        {
+            "input": "4",
+            "expected": ""
+        },
+        {
+            "input": "\"3000\"",
+            "expected": ""
+        }
+    ]
+}

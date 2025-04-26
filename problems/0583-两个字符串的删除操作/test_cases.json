@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "\"sea\"",
+            "expected": ""
+        },
+        {
+            "input": "\"eat\"",
+            "expected": ""
+        },
+        {
+            "input": "\"leetcode\"",
+            "expected": ""
+        },
+        {
+            "input": "\"etco\"",
+            "expected": ""
+        }
+    ]
+}

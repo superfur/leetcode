@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"MedianFinder\",\"addNum\",\"addNum\",\"findMedian\",\"addNum\",\"findMedian\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[],[1],[2],[],[3],[]]",
+            "expected": ""
+        },
+        {
+            "input": "[\"MedianFinder\",\"addNum\",\"findMedian\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[],[1],[]]",
+            "expected": ""
+        }
+    ]
+}

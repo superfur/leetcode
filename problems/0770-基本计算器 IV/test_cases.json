@@ -1,0 +1,40 @@
+{
+    "test_cases": [
+        {
+            "input": "\"e + 8 - a + 5\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"e\"]",
+            "expected": ""
+        },
+        {
+            "input": "[1]",
+            "expected": ""
+        },
+        {
+            "input": "\"e - 8 + temperature - pressure\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"e\", \"temperature\"]",
+            "expected": ""
+        },
+        {
+            "input": "[1, 12]",
+            "expected": ""
+        },
+        {
+            "input": "\"(e + 8) * (e - 8)\"",
+            "expected": ""
+        },
+        {
+            "input": "[]",
+            "expected": ""
+        },
+        {
+            "input": "[]",
+            "expected": ""
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"Skiplist\",\"add\",\"add\",\"add\",\"search\",\"add\",\"search\",\"erase\",\"erase\",\"search\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[],[1],[2],[3],[0],[4],[1],[0],[1],[1]]",
+            "expected": ""
+        }
+    ]
+}

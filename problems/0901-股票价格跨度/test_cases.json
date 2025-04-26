@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"StockSpanner\",\"next\",\"next\",\"next\",\"next\",\"next\",\"next\",\"next\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[],[100],[80],[60],[70],[60],[75],[85]]",
+            "expected": ""
+        }
+    ]
+}

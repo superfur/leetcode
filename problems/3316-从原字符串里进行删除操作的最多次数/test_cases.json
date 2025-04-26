@@ -1,0 +1,52 @@
+{
+    "test_cases": [
+        {
+            "input": "\"abbaa\"",
+            "expected": ""
+        },
+        {
+            "input": "\"aba\"",
+            "expected": ""
+        },
+        {
+            "input": "[0,1,2]",
+            "expected": ""
+        },
+        {
+            "input": "\"bcda\"",
+            "expected": ""
+        },
+        {
+            "input": "\"d\"",
+            "expected": ""
+        },
+        {
+            "input": "[0,3]",
+            "expected": ""
+        },
+        {
+            "input": "\"dda\"",
+            "expected": ""
+        },
+        {
+            "input": "\"dda\"",
+            "expected": ""
+        },
+        {
+            "input": "[0,1,2]",
+            "expected": ""
+        },
+        {
+            "input": "\"yeyeykyded\"",
+            "expected": ""
+        },
+        {
+            "input": "\"yeyyd\"",
+            "expected": ""
+        },
+        {
+            "input": "[0,2,3,4]",
+            "expected": ""
+        }
+    ]
+}

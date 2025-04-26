@@ -1,0 +1,24 @@
+{
+    "test_cases": [
+        {
+            "input": "\"/home/\"",
+            "expected": ""
+        },
+        {
+            "input": "\"/home//foo/\"",
+            "expected": ""
+        },
+        {
+            "input": "\"/home/user/Documents/../Pictures\"",
+            "expected": ""
+        },
+        {
+            "input": "\"/../\"",
+            "expected": ""
+        },
+        {
+            "input": "\"/.../a/../b/c/../d/./\"",
+            "expected": ""
+        }
+    ]
+}

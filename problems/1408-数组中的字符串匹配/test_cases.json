@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"mass\",\"as\",\"hero\",\"superhero\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"leetcode\",\"et\",\"code\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"blue\",\"green\",\"bu\"]",
+            "expected": ""
+        }
+    ]
+}

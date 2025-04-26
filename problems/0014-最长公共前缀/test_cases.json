@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"flower\",\"flow\",\"flight\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"dog\",\"racecar\",\"car\"]",
+            "expected": ""
+        }
+    ]
+}

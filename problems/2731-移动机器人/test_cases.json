@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "[-2,0,2]",
+            "expected": ""
+        },
+        {
+            "input": "\"RLL\"",
+            "expected": ""
+        },
+        {
+            "input": "3",
+            "expected": ""
+        },
+        {
+            "input": "[1,0]",
+            "expected": ""
+        },
+        {
+            "input": "\"RL\"",
+            "expected": ""
+        },
+        {
+            "input": "2",
+            "expected": ""
+        }
+    ]
+}

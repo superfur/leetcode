@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"hello\",\"leetcode\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"hlabcdefgijkmnopqrstuvwxyz\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"word\",\"world\",\"row\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"worldabcefghijkmnpqstuvxyz\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"apple\",\"app\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"abcdefghijklmnopqrstuvwxyz\"",
+            "expected": ""
+        }
+    ]
+}

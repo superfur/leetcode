@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "\"K1:L2\"",
+            "expected": ""
+        },
+        {
+            "input": "\"A1:F1\"",
+            "expected": ""
+        }
+    ]
+}

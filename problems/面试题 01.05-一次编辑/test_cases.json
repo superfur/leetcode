@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "\"horse\"",
+            "expected": ""
+        },
+        {
+            "input": "\"ros\"",
+            "expected": ""
+        },
+        {
+            "input": "\"intention\"",
+            "expected": ""
+        },
+        {
+            "input": "\"execution\"",
+            "expected": ""
+        }
+    ]
+}

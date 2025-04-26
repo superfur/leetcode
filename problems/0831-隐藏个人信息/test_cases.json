@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "\"LeetCode@LeetCode.com\"",
+            "expected": ""
+        },
+        {
+            "input": "\"AB@qq.com\"",
+            "expected": ""
+        },
+        {
+            "input": "\"1(234)567-890\"",
+            "expected": ""
+        }
+    ]
+}

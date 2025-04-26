@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"un\",\"iq\",\"ue\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"cha\",\"r\",\"act\",\"ers\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"abcdefghijklmnopqrstuvwxyz\"]",
+            "expected": ""
+        }
+    ]
+}

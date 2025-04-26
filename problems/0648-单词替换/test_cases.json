@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"cat\",\"bat\",\"rat\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"the cattle was rattled by the battery\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"a\",\"b\",\"c\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"aadsfasf absbs bbab cadsfafs\"",
+            "expected": ""
+        }
+    ]
+}

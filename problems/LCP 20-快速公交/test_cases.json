@@ -1,0 +1,44 @@
+{
+    "test_cases": [
+        {
+            "input": "31",
+            "expected": ""
+        },
+        {
+            "input": "5",
+            "expected": ""
+        },
+        {
+            "input": "3",
+            "expected": ""
+        },
+        {
+            "input": "[6]",
+            "expected": ""
+        },
+        {
+            "input": "[10]",
+            "expected": ""
+        },
+        {
+            "input": "612",
+            "expected": ""
+        },
+        {
+            "input": "4",
+            "expected": ""
+        },
+        {
+            "input": "5",
+            "expected": ""
+        },
+        {
+            "input": "[3,6,8,11,5,10,4]",
+            "expected": ""
+        },
+        {
+            "input": "[4,7,6,3,7,6,4]",
+            "expected": ""
+        }
+    ]
+}

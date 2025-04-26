@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"ATM\",\"deposit\",\"withdraw\",\"deposit\",\"withdraw\",\"withdraw\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[],[[0,0,1,2,1]],[600],[[0,1,0,1,1]],[600],[550]]",
+            "expected": ""
+        }
+    ]
+}

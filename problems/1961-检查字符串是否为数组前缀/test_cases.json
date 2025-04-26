@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "\"iloveleetcode\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"i\",\"love\",\"leetcode\",\"apples\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"iloveleetcode\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"apples\",\"i\",\"love\",\"leetcode\"]",
+            "expected": ""
+        }
+    ]
+}

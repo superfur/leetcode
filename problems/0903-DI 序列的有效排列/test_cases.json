@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "\"DID\"",
+            "expected": ""
+        },
+        {
+            "input": "\"D\"",
+            "expected": ""
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"mobile\",\"mouse\",\"moneypot\",\"monitor\",\"mousepad\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"mouse\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"havana\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"havana\"",
+            "expected": ""
+        }
+    ]
+}

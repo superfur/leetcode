@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "\"()\"",
+            "expected": ""
+        },
+        {
+            "input": "\"()[]{}\"",
+            "expected": ""
+        },
+        {
+            "input": "\"(]\"",
+            "expected": ""
+        },
+        {
+            "input": "\"([])\"",
+            "expected": ""
+        }
+    ]
+}

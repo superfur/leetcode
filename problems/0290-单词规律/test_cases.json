@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "\"abba\"",
+            "expected": ""
+        },
+        {
+            "input": "\"dog cat cat dog\"",
+            "expected": ""
+        },
+        {
+            "input": "\"abba\"",
+            "expected": ""
+        },
+        {
+            "input": "\"dog cat cat fish\"",
+            "expected": ""
+        },
+        {
+            "input": "\"aaaa\"",
+            "expected": ""
+        },
+        {
+            "input": "\"dog cat cat dog\"",
+            "expected": ""
+        }
+    ]
+}

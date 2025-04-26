@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "\"abcde\"",
+            "expected": ""
+        },
+        {
+            "input": "\"ace\"",
+            "expected": ""
+        },
+        {
+            "input": "\"abc\"",
+            "expected": ""
+        },
+        {
+            "input": "\"abc\"",
+            "expected": ""
+        },
+        {
+            "input": "\"abc\"",
+            "expected": ""
+        },
+        {
+            "input": "\"def\"",
+            "expected": ""
+        }
+    ]
+}

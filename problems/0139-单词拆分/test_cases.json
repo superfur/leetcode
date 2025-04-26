@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "\"leetcode\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"leet\",\"code\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"applepenapple\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"apple\",\"pen\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"catsandog\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"cats\",\"dog\",\"sand\",\"and\",\"cat\"]",
+            "expected": ""
+        }
+    ]
+}

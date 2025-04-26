@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "\"IloveLe3tcode!\"",
+            "expected": ""
+        },
+        {
+            "input": "\"Me+You--IsMyDream\"",
+            "expected": ""
+        },
+        {
+            "input": "\"1aB!\"",
+            "expected": ""
+        }
+    ]
+}

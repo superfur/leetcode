@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"CountIntervals\",\"add\",\"add\",\"count\",\"add\",\"count\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[],[2,3],[7,10],[],[5,8],[]]",
+            "expected": ""
+        }
+    ]
+}

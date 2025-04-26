@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "6",
+            "expected": ""
+        },
+        {
+            "input": "8",
+            "expected": ""
+        },
+        {
+            "input": "13",
+            "expected": ""
+        }
+    ]
+}

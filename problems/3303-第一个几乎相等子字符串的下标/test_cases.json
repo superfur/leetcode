@@ -1,0 +1,36 @@
+{
+    "test_cases": [
+        {
+            "input": "\"abcdefg\"",
+            "expected": ""
+        },
+        {
+            "input": "\"bcdffg\"",
+            "expected": ""
+        },
+        {
+            "input": "\"ababbababa\"",
+            "expected": ""
+        },
+        {
+            "input": "\"bacaba\"",
+            "expected": ""
+        },
+        {
+            "input": "\"abcd\"",
+            "expected": ""
+        },
+        {
+            "input": "\"dba\"",
+            "expected": ""
+        },
+        {
+            "input": "\"dde\"",
+            "expected": ""
+        },
+        {
+            "input": "\"d\"",
+            "expected": ""
+        }
+    ]
+}

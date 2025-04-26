@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "() => checkIfInstanceOf(new Date(), Date)",
+            "expected": ""
+        },
+        {
+            "input": "() => { class Animal {}; class Dog extends Animal {}; return checkIfInstanceOf(new Dog(), Animal); }",
+            "expected": ""
+        },
+        {
+            "input": "() => checkIfInstanceOf(Date, Date)",
+            "expected": ""
+        },
+        {
+            "input": "() => checkIfInstanceOf(5, Number)",
+            "expected": ""
+        }
+    ]
+}

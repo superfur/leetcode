@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "() => expect(5).toBe(5)",
+            "expected": ""
+        },
+        {
+            "input": "() => expect(5).toBe(null)",
+            "expected": ""
+        },
+        {
+            "input": "() => expect(5).notToBe(null)",
+            "expected": ""
+        }
+    ]
+}

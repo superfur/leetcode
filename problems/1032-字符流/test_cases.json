@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"StreamChecker\",\"query\",\"query\",\"query\",\"query\",\"query\",\"query\",\"query\",\"query\",\"query\",\"query\",\"query\",\"query\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[[\"cd\",\"f\",\"kl\"]],[\"a\"],[\"b\"],[\"c\"],[\"d\"],[\"e\"],[\"f\"],[\"g\"],[\"h\"],[\"i\"],[\"j\"],[\"k\"],[\"l\"]]",
+            "expected": ""
+        }
+    ]
+}

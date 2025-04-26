@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"RandomizedCollection\",\"insert\",\"insert\",\"insert\",\"getRandom\",\"remove\",\"getRandom\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[],[1],[1],[2],[],[1],[]]",
+            "expected": ""
+        }
+    ]
+}

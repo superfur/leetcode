@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"MyCalendar\",\"book\",\"book\",\"book\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[],[10,20],[15,25],[20,30]]",
+            "expected": ""
+        }
+    ]
+}

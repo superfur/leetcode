@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"SEND\",\"MORE\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"MONEY\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"SIX\",\"SEVEN\",\"SEVEN\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"TWENTY\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"LEET\",\"CODE\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"POINT\"",
+            "expected": ""
+        }
+    ]
+}

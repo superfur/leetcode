@@ -1,0 +1,64 @@
+{
+    "test_cases": [
+        {
+            "input": "\"abcd\"",
+            "expected": ""
+        },
+        {
+            "input": "\"acbe\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"a\",\"b\",\"c\",\"c\",\"e\",\"d\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"b\",\"c\",\"b\",\"e\",\"b\",\"e\"]",
+            "expected": ""
+        },
+        {
+            "input": "[2,5,5,1,2,20]",
+            "expected": ""
+        },
+        {
+            "input": "\"aaaa\"",
+            "expected": ""
+        },
+        {
+            "input": "\"bbbb\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"a\",\"c\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"c\",\"b\"]",
+            "expected": ""
+        },
+        {
+            "input": "[1,2]",
+            "expected": ""
+        },
+        {
+            "input": "\"abcd\"",
+            "expected": ""
+        },
+        {
+            "input": "\"abce\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"a\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"e\"]",
+            "expected": ""
+        },
+        {
+            "input": "[10000]",
+            "expected": ""
+        }
+    ]
+}

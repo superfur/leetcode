@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "\"3[a]2[bc]\"",
+            "expected": ""
+        },
+        {
+            "input": "\"3[a2[c]]\"",
+            "expected": ""
+        },
+        {
+            "input": "\"2[abc]3[cd]ef\"",
+            "expected": ""
+        }
+    ]
+}

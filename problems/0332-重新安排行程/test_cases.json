@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[[\"MUC\",\"LHR\"],[\"JFK\",\"MUC\"],[\"SFO\",\"SJC\"],[\"LHR\",\"SFO\"]]",
+            "expected": ""
+        },
+        {
+            "input": "[[\"JFK\",\"SFO\"],[\"JFK\",\"ATL\"],[\"SFO\",\"ATL\"],[\"ATL\",\"JFK\"],[\"ATL\",\"SFO\"]]",
+            "expected": ""
+        }
+    ]
+}

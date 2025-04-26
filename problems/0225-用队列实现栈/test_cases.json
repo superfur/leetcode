@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"MyStack\",\"push\",\"push\",\"top\",\"pop\",\"empty\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[],[1],[2],[],[],[]]",
+            "expected": ""
+        }
+    ]
+}

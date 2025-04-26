@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"....rl\",\"l.lr.r\",\".l..r.\",\"..lr..\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\".rlrlrlrl\",\"ll..rl..r\",\".llrrllrr\",\"..lr..lr.\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"rlrr\",\"llrl\",\"llr.\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"...rl...\",\"..r..l..\",\".r.rl.l.\",\"r.r..l.l\",\"l.l..rl.\",\".l.lr.r.\",\"..l..r..\",\"...lr...\"]",
+            "expected": ""
+        }
+    ]
+}

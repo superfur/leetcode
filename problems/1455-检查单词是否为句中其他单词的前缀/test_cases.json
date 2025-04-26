@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "\"i love eating burger\"",
+            "expected": ""
+        },
+        {
+            "input": "\"burg\"",
+            "expected": ""
+        },
+        {
+            "input": "\"this problem is an easy problem\"",
+            "expected": ""
+        },
+        {
+            "input": "\"pro\"",
+            "expected": ""
+        },
+        {
+            "input": "\"i am tired\"",
+            "expected": ""
+        },
+        {
+            "input": "\"you\"",
+            "expected": ""
+        }
+    ]
+}

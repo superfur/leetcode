@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "\"hello world\"",
+            "expected": ""
+        },
+        {
+            "input": "\"ad\"",
+            "expected": ""
+        },
+        {
+            "input": "\"leet code\"",
+            "expected": ""
+        },
+        {
+            "input": "\"lt\"",
+            "expected": ""
+        },
+        {
+            "input": "\"leet code\"",
+            "expected": ""
+        },
+        {
+            "input": "\"e\"",
+            "expected": ""
+        }
+    ]
+}

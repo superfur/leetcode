@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "\"aeiouu\"",
+            "expected": ""
+        },
+        {
+            "input": "\"unicornarihan\"",
+            "expected": ""
+        },
+        {
+            "input": "\"cuaieuouac\"",
+            "expected": ""
+        }
+    ]
+}

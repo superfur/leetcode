@@ -1,0 +1,52 @@
+{
+    "test_cases": [
+        {
+            "input": "function*() { return 42; }",
+            "expected": ""
+        },
+        {
+            "input": "{\"cancelledAt\":100}",
+            "expected": ""
+        },
+        {
+            "input": "function*() { const msg = yield new Promise(res => res(\"Hello\")); throw `Error: ${msg}`; }",
+            "expected": ""
+        },
+        {
+            "input": "{\"cancelledAt\":null}",
+            "expected": ""
+        },
+        {
+            "input": "function*() { yield new Promise(res => setTimeout(res, 200)); return \"Success\"; }",
+            "expected": ""
+        },
+        {
+            "input": "{\"cancelledAt\":100}",
+            "expected": ""
+        },
+        {
+            "input": "function*() { let result = 0; yield new Promise(res => setTimeout(res, 100)); result += yield new Promise(res => res(1)); yield new Promise(res => setTimeout(res, 100)); result += yield new Promise(res => res(1)); return result; }",
+            "expected": ""
+        },
+        {
+            "input": "{\"cancelledAt\":null}",
+            "expected": ""
+        },
+        {
+            "input": "function*() { let result = 0; try { yield new Promise(res => setTimeout(res, 100)); result += yield new Promise(res => res(1)); yield new Promise(res => setTimeout(res, 100)); result += yield new Promise(res => res(1)); } catch(e) { return result; } return result; }",
+            "expected": ""
+        },
+        {
+            "input": "{\"cancelledAt\":150}",
+            "expected": ""
+        },
+        {
+            "input": "function*() { try { yield new Promise((resolve, reject) => reject(\"Promise Rejected\")); } catch(e) { let a = yield new Promise(resolve => resolve(2)); let b = yield new Promise(resolve => resolve(2)); return a + b; }; }",
+            "expected": ""
+        },
+        {
+            "input": "{\"cancelledAt\":null}",
+            "expected": ""
+        }
+    ]
+}

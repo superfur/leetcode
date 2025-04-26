@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"KiTe\",\"kite\",\"hare\",\"Hare\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"kite\",\"Kite\",\"KiTe\",\"Hare\",\"HARE\",\"Hear\",\"hear\",\"keti\",\"keet\",\"keto\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"yellow\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"YellOw\"]",
+            "expected": ""
+        }
+    ]
+}

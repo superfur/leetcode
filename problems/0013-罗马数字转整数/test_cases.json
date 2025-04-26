@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "\"III\"",
+            "expected": ""
+        },
+        {
+            "input": "\"LVIII\"",
+            "expected": ""
+        },
+        {
+            "input": "\"MCMXCIV\"",
+            "expected": ""
+        }
+    ]
+}

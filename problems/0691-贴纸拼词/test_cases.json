@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"with\",\"example\",\"science\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"thehat\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"notice\",\"possible\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"basicbasic\"",
+            "expected": ""
+        }
+    ]
+}

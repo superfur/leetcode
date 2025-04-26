@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "\"dcab\"",
+            "expected": ""
+        },
+        {
+            "input": "[[0,3],[1,2]]",
+            "expected": ""
+        },
+        {
+            "input": "\"dcab\"",
+            "expected": ""
+        },
+        {
+            "input": "[[0,3],[1,2],[0,2]]",
+            "expected": ""
+        },
+        {
+            "input": "\"cba\"",
+            "expected": ""
+        },
+        {
+            "input": "[[0,1],[1,2]]",
+            "expected": ""
+        }
+    ]
+}

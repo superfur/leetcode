@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "\"aba\"",
+            "expected": ""
+        },
+        {
+            "input": "\"caa\"",
+            "expected": ""
+        },
+        {
+            "input": "\"dabadd\"",
+            "expected": ""
+        },
+        {
+            "input": "\"cda\"",
+            "expected": ""
+        }
+    ]
+}

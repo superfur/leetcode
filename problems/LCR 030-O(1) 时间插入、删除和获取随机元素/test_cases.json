@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"RandomizedSet\",\"insert\",\"remove\",\"insert\",\"getRandom\",\"remove\",\"insert\",\"getRandom\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[],[1],[2],[2],[],[1],[2],[]]",
+            "expected": ""
+        }
+    ]
+}

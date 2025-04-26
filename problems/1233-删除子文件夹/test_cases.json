@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"/a\",\"/a/b\",\"/c/d\",\"/c/d/e\",\"/c/f\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"/a\",\"/a/b/c\",\"/a/b/d\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"/a/b/c\",\"/a/b/ca\",\"/a/b/d\"]",
+            "expected": ""
+        }
+    ]
+}

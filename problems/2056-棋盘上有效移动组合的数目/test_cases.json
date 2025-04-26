@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"rook\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[1,1]]",
+            "expected": ""
+        },
+        {
+            "input": "[\"queen\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[1,1]]",
+            "expected": ""
+        },
+        {
+            "input": "[\"bishop\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[4,3]]",
+            "expected": ""
+        }
+    ]
+}

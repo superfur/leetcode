@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "\"leetcode\"",
+            "expected": ""
+        },
+        {
+            "input": "\"coats\"",
+            "expected": ""
+        },
+        {
+            "input": "\"night\"",
+            "expected": ""
+        },
+        {
+            "input": "\"thing\"",
+            "expected": ""
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "\"02:30\"",
+            "expected": ""
+        },
+        {
+            "input": "\"04:35\"",
+            "expected": ""
+        },
+        {
+            "input": "\"11:00\"",
+            "expected": ""
+        },
+        {
+            "input": "\"11:01\"",
+            "expected": ""
+        }
+    ]
+}

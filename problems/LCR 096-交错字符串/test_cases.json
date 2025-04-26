@@ -1,0 +1,40 @@
+{
+    "test_cases": [
+        {
+            "input": "\"aabcc\"",
+            "expected": ""
+        },
+        {
+            "input": "\"dbbca\"",
+            "expected": ""
+        },
+        {
+            "input": "\"aadbbcbcac\"",
+            "expected": ""
+        },
+        {
+            "input": "\"aabcc\"",
+            "expected": ""
+        },
+        {
+            "input": "\"dbbca\"",
+            "expected": ""
+        },
+        {
+            "input": "\"aadbbbaccc\"",
+            "expected": ""
+        },
+        {
+            "input": "\"\"",
+            "expected": ""
+        },
+        {
+            "input": "\"\"",
+            "expected": ""
+        },
+        {
+            "input": "\"\"",
+            "expected": ""
+        }
+    ]
+}

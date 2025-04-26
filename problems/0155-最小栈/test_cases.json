@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"MinStack\",\"push\",\"push\",\"push\",\"getMin\",\"pop\",\"top\",\"getMin\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[],[-2],[0],[-3],[],[],[],[]]",
+            "expected": ""
+        }
+    ]
+}

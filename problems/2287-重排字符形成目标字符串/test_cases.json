@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "\"ilovecodingonleetcode\"",
+            "expected": ""
+        },
+        {
+            "input": "\"code\"",
+            "expected": ""
+        },
+        {
+            "input": "\"abcba\"",
+            "expected": ""
+        },
+        {
+            "input": "\"abc\"",
+            "expected": ""
+        },
+        {
+            "input": "\"abbaccaddaeea\"",
+            "expected": ""
+        },
+        {
+            "input": "\"aaaaa\"",
+            "expected": ""
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"Checkout\",\"add\",\"add\",\"get_max\",\"remove\",\"get_max\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[],[4],[7],[],[],[]]",
+            "expected": ""
+        },
+        {
+            "input": "[\"Checkout\",\"remove\",\"get_max\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[],[],[]]",
+            "expected": ""
+        }
+    ]
+}

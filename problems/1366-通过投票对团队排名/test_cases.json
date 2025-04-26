@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"ABC\",\"ACB\",\"ABC\",\"ACB\",\"ACB\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"WXYZ\",\"XYZW\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"ZMNAGUEDSJYLBOPHRQICWFXTVK\"]",
+            "expected": ""
+        }
+    ]
+}

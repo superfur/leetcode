@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "\"owoztneoer\"",
+            "expected": ""
+        },
+        {
+            "input": "\"fviefuro\"",
+            "expected": ""
+        }
+    ]
+}

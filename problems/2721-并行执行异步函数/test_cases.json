@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "[() => new Promise(resolve => setTimeout(() => resolve(5), 200))]",
+            "expected": ""
+        },
+        {
+            "input": "[() => new Promise(resolve => setTimeout(() => resolve(1), 200)), () => new Promise((resolve, reject) => setTimeout(() => reject(\"Error\"), 100))]",
+            "expected": ""
+        },
+        {
+            "input": "[() => new Promise(resolve => setTimeout(() => resolve(4), 50)), () => new Promise(resolve => setTimeout(() => resolve(10), 150)), () => new Promise(resolve => setTimeout(() => resolve(16), 100))]",
+            "expected": ""
+        }
+    ]
+}

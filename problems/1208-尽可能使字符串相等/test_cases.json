@@ -1,0 +1,40 @@
+{
+    "test_cases": [
+        {
+            "input": "\"abcd\"",
+            "expected": ""
+        },
+        {
+            "input": "\"bcdf\"",
+            "expected": ""
+        },
+        {
+            "input": "3",
+            "expected": ""
+        },
+        {
+            "input": "\"abcd\"",
+            "expected": ""
+        },
+        {
+            "input": "\"cdef\"",
+            "expected": ""
+        },
+        {
+            "input": "3",
+            "expected": ""
+        },
+        {
+            "input": "\"abcd\"",
+            "expected": ""
+        },
+        {
+            "input": "\"acde\"",
+            "expected": ""
+        },
+        {
+            "input": "0",
+            "expected": ""
+        }
+    ]
+}

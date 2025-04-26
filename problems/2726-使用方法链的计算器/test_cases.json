@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"Calculator\", \"add\", \"subtract\", \"getResult\"]",
+            "expected": ""
+        },
+        {
+            "input": "[10, 5, 7]",
+            "expected": ""
+        },
+        {
+            "input": "[\"Calculator\", \"multiply\", \"power\", \"getResult\"]",
+            "expected": ""
+        },
+        {
+            "input": "[2, 5, 2]",
+            "expected": ""
+        },
+        {
+            "input": "[\"Calculator\", \"divide\", \"getResult\"]",
+            "expected": ""
+        },
+        {
+            "input": "[20, 0]",
+            "expected": ""
+        }
+    ]
+}

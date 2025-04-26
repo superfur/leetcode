@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"Solution\",\"getRandom\",\"getRandom\",\"getRandom\",\"getRandom\",\"getRandom\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[[1,2,3]],[],[],[],[],[]]",
+            "expected": ""
+        }
+    ]
+}

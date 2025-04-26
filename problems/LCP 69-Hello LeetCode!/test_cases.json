@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"hold\",\"engineer\",\"cost\",\"level\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"hello\",\"leetcode\"]",
+            "expected": ""
+        }
+    ]
+}

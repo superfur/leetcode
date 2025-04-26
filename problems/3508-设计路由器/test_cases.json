@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"Router\",\"addPacket\",\"addPacket\",\"addPacket\",\"addPacket\",\"addPacket\",\"forwardPacket\",\"addPacket\",\"getCount\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[3],[1,4,90],[2,5,90],[1,4,90],[3,5,95],[4,5,105],[],[5,2,110],[5,100,110]]",
+            "expected": ""
+        },
+        {
+            "input": "[\"Router\",\"addPacket\",\"forwardPacket\",\"forwardPacket\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[2],[7,4,90],[],[]]",
+            "expected": ""
+        }
+    ]
+}

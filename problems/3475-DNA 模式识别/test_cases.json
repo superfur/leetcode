@@ -1,0 +1,8 @@
+{
+    "test_cases": [
+        {
+            "input": "{\"headers\":{\"Samples\":[\"sample_id\",\"dna_sequence\",\"species\"]},\"rows\":{\"Samples\":[[1,\"ATGCTAGCTAGCTAA\",\"Human\"],[2,\"GGGTCAATCATC\",\"Human\"],[3,\"ATATATCGTAGCTA\",\"Human\"],[4,\"ATGGGGTCATCATAA\",\"Mouse\"],[5,\"TCAGTCAGTCAG\",\"Mouse\"],[6,\"ATATCGCGCTAG\",\"Zebrafish\"],[7,\"CGTATGCGTCGTA\",\"Zebrafish\"]]}}",
+            "expected": ""
+        }
+    ]
+}

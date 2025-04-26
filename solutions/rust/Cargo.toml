@@ -1,0 +1,11 @@
+[package]
+name = "leetcode-rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+test-case = "3.0.0"
+
+[[bin]]
+name = "leetcode"
+path = "src/main.rs" 

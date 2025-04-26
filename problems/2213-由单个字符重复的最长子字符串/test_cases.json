@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "\"babacc\"",
+            "expected": ""
+        },
+        {
+            "input": "\"bcb\"",
+            "expected": ""
+        },
+        {
+            "input": "[1,3,3]",
+            "expected": ""
+        },
+        {
+            "input": "\"abyzz\"",
+            "expected": ""
+        },
+        {
+            "input": "\"aa\"",
+            "expected": ""
+        },
+        {
+            "input": "[2,1]",
+            "expected": ""
+        }
+    ]
+}

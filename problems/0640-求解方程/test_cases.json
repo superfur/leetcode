@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "\"x+5-3+x=6+x-2\"",
+            "expected": ""
+        },
+        {
+            "input": "\"x=x\"",
+            "expected": ""
+        },
+        {
+            "input": "\"2x=x\"",
+            "expected": ""
+        }
+    ]
+}

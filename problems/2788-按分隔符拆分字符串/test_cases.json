@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"one.two.three\",\"four.five\",\"six\"]",
+            "expected": ""
+        },
+        {
+            "input": "\".\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"$easy$\",\"$problem$\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"$\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"|||\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"|\"",
+            "expected": ""
+        }
+    ]
+}

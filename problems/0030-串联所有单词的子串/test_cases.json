@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "\"barfoothefoobarman\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"foo\",\"bar\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"wordgoodgoodgoodbestword\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"word\",\"good\",\"best\",\"word\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"barfoofoobarthefoobarman\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"bar\",\"foo\",\"the\"]",
+            "expected": ""
+        }
+    ]
+}

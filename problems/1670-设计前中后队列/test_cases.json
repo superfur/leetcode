@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"FrontMiddleBackQueue\",\"pushFront\",\"pushBack\",\"pushMiddle\",\"pushMiddle\",\"popFront\",\"popMiddle\",\"popMiddle\",\"popBack\",\"popFront\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[],[1],[2],[3],[4],[],[],[],[],[]]",
+            "expected": ""
+        }
+    ]
+}

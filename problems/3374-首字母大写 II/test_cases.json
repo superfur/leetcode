@@ -1,0 +1,8 @@
+{
+    "test_cases": [
+        {
+            "input": "{\"headers\":{\"user_content\":[\"content_id\",\"content_text\"]},\"rows\":{\"user_content\":[[1,\"hello world of SQL\"],[2,\"the QUICK-brown fox\"],[3,\"modern-day DATA science\"],[4,\"web-based FRONT-end development\"]]}}",
+            "expected": ""
+        }
+    ]
+}

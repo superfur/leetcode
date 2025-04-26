@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "\"aeiaaioaaaaeiiiiouuuooaauuaeiu\"",
+            "expected": ""
+        },
+        {
+            "input": "\"aeeeiiiioooauuuaeiou\"",
+            "expected": ""
+        },
+        {
+            "input": "\"a\"",
+            "expected": ""
+        }
+    ]
+}

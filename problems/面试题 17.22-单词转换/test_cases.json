@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "\"hit\"",
+            "expected": ""
+        },
+        {
+            "input": "\"cog\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"hot\",\"dot\",\"dog\",\"lot\",\"log\",\"cog\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"hit\"",
+            "expected": ""
+        },
+        {
+            "input": "\"cog\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"hot\",\"dot\",\"dog\",\"lot\",\"log\"]",
+            "expected": ""
+        }
+    ]
+}

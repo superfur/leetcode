@@ -1,0 +1,52 @@
+{
+    "test_cases": [
+        {
+            "input": "\"URR\"",
+            "expected": ""
+        },
+        {
+            "input": "[]",
+            "expected": ""
+        },
+        {
+            "input": "3",
+            "expected": ""
+        },
+        {
+            "input": "2",
+            "expected": ""
+        },
+        {
+            "input": "\"URR\"",
+            "expected": ""
+        },
+        {
+            "input": "[[2, 2]]",
+            "expected": ""
+        },
+        {
+            "input": "3",
+            "expected": ""
+        },
+        {
+            "input": "2",
+            "expected": ""
+        },
+        {
+            "input": "\"URR\"",
+            "expected": ""
+        },
+        {
+            "input": "[[4, 2]]",
+            "expected": ""
+        },
+        {
+            "input": "3",
+            "expected": ""
+        },
+        {
+            "input": "2",
+            "expected": ""
+        }
+    ]
+}

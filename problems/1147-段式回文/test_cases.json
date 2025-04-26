@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "\"ghiabcdefhelloadamhelloabcdefghi\"",
+            "expected": ""
+        },
+        {
+            "input": "\"merchant\"",
+            "expected": ""
+        },
+        {
+            "input": "\"antaprezatepzapreanta\"",
+            "expected": ""
+        }
+    ]
+}

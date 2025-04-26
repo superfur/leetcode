@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "[5,4,1,2,3]",
+            "expected": ""
+        },
+        {
+            "input": "(x) => x",
+            "expected": ""
+        },
+        {
+            "input": "[{\"x\":1},{\"x\": 0},{\"x\": -1}]",
+            "expected": ""
+        },
+        {
+            "input": "(x) => x.x",
+            "expected": ""
+        },
+        {
+            "input": "[[3,4],[5,2],[10,1]]",
+            "expected": ""
+        },
+        {
+            "input": "(x) => x[1]",
+            "expected": ""
+        }
+    ]
+}

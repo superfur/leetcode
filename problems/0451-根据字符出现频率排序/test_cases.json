@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "\"tree\"",
+            "expected": ""
+        },
+        {
+            "input": "\"cccaaa\"",
+            "expected": ""
+        },
+        {
+            "input": "\"Aabb\"",
+            "expected": ""
+        }
+    ]
+}

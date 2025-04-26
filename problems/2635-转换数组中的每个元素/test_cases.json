@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "function plusone(n) { return n + 1; }",
+            "expected": ""
+        },
+        {
+            "input": "[1,2,3]",
+            "expected": ""
+        },
+        {
+            "input": "function plusI(n, i) { return n + i; }",
+            "expected": ""
+        },
+        {
+            "input": "[1,2,3]",
+            "expected": ""
+        },
+        {
+            "input": "function constant(n, i) { return 42; }",
+            "expected": ""
+        },
+        {
+            "input": "[10,20,30]",
+            "expected": ""
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "\"abc\"",
+            "expected": ""
+        },
+        {
+            "input": "2",
+            "expected": ""
+        },
+        {
+            "input": "\"aabbc\"",
+            "expected": ""
+        },
+        {
+            "input": "3",
+            "expected": ""
+        },
+        {
+            "input": "\"leetcode\"",
+            "expected": ""
+        },
+        {
+            "input": "8",
+            "expected": ""
+        }
+    ]
+}

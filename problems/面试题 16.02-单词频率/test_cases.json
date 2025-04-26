@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"WordsFrequency\",\"get\",\"get\",\"get\",\"get\",\"get\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[[\"i\",\"have\",\"an\",\"apple\",\"he\",\"have\",\"a\",\"pen\"]],[\"you\"],[\"have\"],[\"an\"],[\"apple\"],[\"pen\"]]",
+            "expected": ""
+        }
+    ]
+}

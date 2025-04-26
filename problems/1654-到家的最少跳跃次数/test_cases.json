@@ -1,0 +1,52 @@
+{
+    "test_cases": [
+        {
+            "input": "[14,4,18,1,15]",
+            "expected": ""
+        },
+        {
+            "input": "3",
+            "expected": ""
+        },
+        {
+            "input": "15",
+            "expected": ""
+        },
+        {
+            "input": "9",
+            "expected": ""
+        },
+        {
+            "input": "[8,3,16,6,12,20]",
+            "expected": ""
+        },
+        {
+            "input": "15",
+            "expected": ""
+        },
+        {
+            "input": "13",
+            "expected": ""
+        },
+        {
+            "input": "11",
+            "expected": ""
+        },
+        {
+            "input": "[1,6,2,14,5,17,4]",
+            "expected": ""
+        },
+        {
+            "input": "16",
+            "expected": ""
+        },
+        {
+            "input": "9",
+            "expected": ""
+        },
+        {
+            "input": "7",
+            "expected": ""
+        }
+    ]
+}

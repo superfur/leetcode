@@ -1,0 +1,44 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"cat\",\"bat\",\"rat\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"the cattle was rattled by the battery\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"a\",\"b\",\"c\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"aadsfasf absbs bbab cadsfafs\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"a\", \"aa\", \"aaa\", \"aaaa\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"a aa a aaaa aaa aaa aaa aaaaaa bbb baba ababa\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"catt\",\"cat\",\"bat\",\"rat\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"the cattle was rattled by the battery\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"ac\",\"ab\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"it is abnormal that this solution is accepted\"",
+            "expected": ""
+        }
+    ]
+}

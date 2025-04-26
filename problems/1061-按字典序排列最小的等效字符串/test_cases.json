@@ -1,0 +1,40 @@
+{
+    "test_cases": [
+        {
+            "input": "\"parker\"",
+            "expected": ""
+        },
+        {
+            "input": "\"morris\"",
+            "expected": ""
+        },
+        {
+            "input": "\"parser\"",
+            "expected": ""
+        },
+        {
+            "input": "\"hello\"",
+            "expected": ""
+        },
+        {
+            "input": "\"world\"",
+            "expected": ""
+        },
+        {
+            "input": "\"hold\"",
+            "expected": ""
+        },
+        {
+            "input": "\"leetcode\"",
+            "expected": ""
+        },
+        {
+            "input": "\"programs\"",
+            "expected": ""
+        },
+        {
+            "input": "\"sourcecode\"",
+            "expected": ""
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "\"Let's take LeetCode contest\"",
+            "expected": ""
+        },
+        {
+            "input": "\"Mr Ding\"",
+            "expected": ""
+        }
+    ]
+}

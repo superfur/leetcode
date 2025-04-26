@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "\"dbascDdad\"",
+            "expected": ""
+        },
+        {
+            "input": "\"KKK\"",
+            "expected": ""
+        },
+        {
+            "input": "\"pwwkew\"",
+            "expected": ""
+        }
+    ]
+}

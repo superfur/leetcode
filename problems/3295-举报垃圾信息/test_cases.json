@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"hello\",\"world\",\"leetcode\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"world\",\"hello\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"hello\",\"programming\",\"fun\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"world\",\"programming\",\"leetcode\"]",
+            "expected": ""
+        }
+    ]
+}

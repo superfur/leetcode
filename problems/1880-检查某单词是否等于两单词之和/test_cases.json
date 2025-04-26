@@ -1,0 +1,40 @@
+{
+    "test_cases": [
+        {
+            "input": "\"acb\"",
+            "expected": ""
+        },
+        {
+            "input": "\"cba\"",
+            "expected": ""
+        },
+        {
+            "input": "\"cdb\"",
+            "expected": ""
+        },
+        {
+            "input": "\"aaa\"",
+            "expected": ""
+        },
+        {
+            "input": "\"a\"",
+            "expected": ""
+        },
+        {
+            "input": "\"aab\"",
+            "expected": ""
+        },
+        {
+            "input": "\"aaa\"",
+            "expected": ""
+        },
+        {
+            "input": "\"a\"",
+            "expected": ""
+        },
+        {
+            "input": "\"aaaa\"",
+            "expected": ""
+        }
+    ]
+}

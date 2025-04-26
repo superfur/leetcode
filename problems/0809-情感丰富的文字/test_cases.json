@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "\"heeellooo\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"hello\", \"hi\", \"helo\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"zzzzzyyyyy\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"zzyy\",\"zy\",\"zyy\"]",
+            "expected": ""
+        }
+    ]
+}

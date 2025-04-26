@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "\"247+38\"",
+            "expected": ""
+        },
+        {
+            "input": "\"12+34\"",
+            "expected": ""
+        },
+        {
+            "input": "\"999+999\"",
+            "expected": ""
+        }
+    ]
+}

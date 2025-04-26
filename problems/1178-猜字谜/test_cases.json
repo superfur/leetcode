@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"aaaa\",\"asas\",\"able\",\"ability\",\"actt\",\"actor\",\"access\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"aboveyz\",\"abrodyz\",\"abslute\",\"absoryz\",\"actresz\",\"gaswxyz\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"apple\",\"pleas\",\"please\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"aelwxyz\",\"aelpxyz\",\"aelpsxy\",\"saelpxy\",\"xaelpsy\"]",
+            "expected": ""
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"John(15)\",\"Jon(12)\",\"Chris(13)\",\"Kris(4)\",\"Christopher(19)\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"(Jon,John)\",\"(John,Johnny)\",\"(Chris,Kris)\",\"(Chris,Christopher)\"]",
+            "expected": ""
+        }
+    ]
+}

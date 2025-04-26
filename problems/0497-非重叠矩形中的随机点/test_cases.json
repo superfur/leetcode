@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"Solution\",\"pick\",\"pick\",\"pick\",\"pick\",\"pick\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[[[-2,-2,1,1],[2,2,4,6]]],[],[],[],[],[]]",
+            "expected": ""
+        }
+    ]
+}

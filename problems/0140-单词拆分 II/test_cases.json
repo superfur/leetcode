@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "\"catsanddog\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"cat\",\"cats\",\"and\",\"sand\",\"dog\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"pineapplepenapple\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"apple\",\"pen\",\"applepen\",\"pine\",\"pineapple\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"catsandog\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"cats\",\"dog\",\"sand\",\"and\",\"cat\"]",
+            "expected": ""
+        }
+    ]
+}

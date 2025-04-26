@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "function greaterThan10(n) { return n > 10; }",
+            "expected": ""
+        },
+        {
+            "input": "[0,10,20,30]",
+            "expected": ""
+        },
+        {
+            "input": "function firstIndex(n, i) { return i === 0; }",
+            "expected": ""
+        },
+        {
+            "input": "[1,2,3]",
+            "expected": ""
+        },
+        {
+            "input": "function plusOne(n) { return n + 1 }",
+            "expected": ""
+        },
+        {
+            "input": "[-2,-1,0,1,2]",
+            "expected": ""
+        }
+    ]
+}

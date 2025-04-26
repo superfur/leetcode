@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "\"My name is Haley\"",
+            "expected": ""
+        },
+        {
+            "input": "\"My Haley\"",
+            "expected": ""
+        },
+        {
+            "input": "\"of\"",
+            "expected": ""
+        },
+        {
+            "input": "\"A lot of words\"",
+            "expected": ""
+        },
+        {
+            "input": "\"Eating right now\"",
+            "expected": ""
+        },
+        {
+            "input": "\"Eating\"",
+            "expected": ""
+        }
+    ]
+}

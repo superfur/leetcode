@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "\"Hello how are you Contestant\"",
+            "expected": ""
+        },
+        {
+            "input": "4",
+            "expected": ""
+        },
+        {
+            "input": "\"What is the solution to this problem\"",
+            "expected": ""
+        },
+        {
+            "input": "4",
+            "expected": ""
+        },
+        {
+            "input": "\"chopper is not a tanuki\"",
+            "expected": ""
+        },
+        {
+            "input": "5",
+            "expected": ""
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "\"8733\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"tree\", \"used\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"2\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"a\", \"b\", \"c\", \"d\"]",
+            "expected": ""
+        }
+    ]
+}

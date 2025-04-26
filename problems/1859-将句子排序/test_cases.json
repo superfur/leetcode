@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "\"is2 sentence4 This1 a3\"",
+            "expected": ""
+        },
+        {
+            "input": "\"Myself2 Me1 I4 and3\"",
+            "expected": ""
+        }
+    ]
+}

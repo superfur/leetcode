@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"MajorityChecker\",\"query\",\"query\",\"query\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[[1,1,2,2,1,1]],[0,5,4],[0,3,3],[2,3,2]]",
+            "expected": ""
+        }
+    ]
+}

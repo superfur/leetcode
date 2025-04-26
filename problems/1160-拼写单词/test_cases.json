@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"cat\",\"bt\",\"hat\",\"tree\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"atach\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"hello\",\"world\",\"leetcode\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"welldonehoneyr\"",
+            "expected": ""
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"amazon\",\"apple\",\"facebook\",\"google\",\"leetcode\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"e\",\"o\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"amazon\",\"apple\",\"facebook\",\"google\",\"leetcode\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"lc\",\"eo\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"acaac\",\"cccbb\",\"aacbb\",\"caacc\",\"bcbbb\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"c\",\"cc\",\"b\"]",
+            "expected": ""
+        }
+    ]
+}

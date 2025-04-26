@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"DataStream\",\"consec\",\"consec\",\"consec\",\"consec\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[4,3],[4],[4],[4],[3]]",
+            "expected": ""
+        }
+    ]
+}

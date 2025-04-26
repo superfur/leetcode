@@ -1,0 +1,52 @@
+{
+    "test_cases": [
+        {
+            "input": "2",
+            "expected": ""
+        },
+        {
+            "input": "\"aa\"",
+            "expected": ""
+        },
+        {
+            "input": "\"da\"",
+            "expected": ""
+        },
+        {
+            "input": "\"b\"",
+            "expected": ""
+        },
+        {
+            "input": "8",
+            "expected": ""
+        },
+        {
+            "input": "\"leetcode\"",
+            "expected": ""
+        },
+        {
+            "input": "\"leetgoes\"",
+            "expected": ""
+        },
+        {
+            "input": "\"leet\"",
+            "expected": ""
+        },
+        {
+            "input": "2",
+            "expected": ""
+        },
+        {
+            "input": "\"gx\"",
+            "expected": ""
+        },
+        {
+            "input": "\"gz\"",
+            "expected": ""
+        },
+        {
+            "input": "\"x\"",
+            "expected": ""
+        }
+    ]
+}

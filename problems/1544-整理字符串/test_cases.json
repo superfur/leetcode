@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "\"leEeetcode\"",
+            "expected": ""
+        },
+        {
+            "input": "\"abBAcC\"",
+            "expected": ""
+        },
+        {
+            "input": "\"s\"",
+            "expected": ""
+        }
+    ]
+}

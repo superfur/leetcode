@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "\"anagram\"",
+            "expected": ""
+        },
+        {
+            "input": "\"nagaram\"",
+            "expected": ""
+        },
+        {
+            "input": "\"rat\"",
+            "expected": ""
+        },
+        {
+            "input": "\"car\"",
+            "expected": ""
+        }
+    ]
+}

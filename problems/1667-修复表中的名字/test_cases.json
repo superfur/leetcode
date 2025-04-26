@@ -1,0 +1,8 @@
+{
+    "test_cases": [
+        {
+            "input": "{\"headers\":{\"Users\":[\"user_id\",\"name\"]},\"rows\":{\"Users\":[[1,\"aLice\"],[2,\"bOB\"]]}}",
+            "expected": ""
+        }
+    ]
+}

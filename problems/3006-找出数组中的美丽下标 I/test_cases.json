@@ -1,0 +1,36 @@
+{
+    "test_cases": [
+        {
+            "input": "\"isawsquirrelnearmysquirrelhouseohmy\"",
+            "expected": ""
+        },
+        {
+            "input": "\"my\"",
+            "expected": ""
+        },
+        {
+            "input": "\"squirrel\"",
+            "expected": ""
+        },
+        {
+            "input": "15",
+            "expected": ""
+        },
+        {
+            "input": "\"abcd\"",
+            "expected": ""
+        },
+        {
+            "input": "\"a\"",
+            "expected": ""
+        },
+        {
+            "input": "\"a\"",
+            "expected": ""
+        },
+        {
+            "input": "4",
+            "expected": ""
+        }
+    ]
+}

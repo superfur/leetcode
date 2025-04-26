@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "\"EEEEEEE\"",
+            "expected": ""
+        },
+        {
+            "input": "\"ELELEEL\"",
+            "expected": ""
+        },
+        {
+            "input": "\"ELEELEELLL\"",
+            "expected": ""
+        }
+    ]
+}

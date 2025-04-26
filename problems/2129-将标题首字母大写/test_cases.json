@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "\"capiTalIze tHe titLe\"",
+            "expected": ""
+        },
+        {
+            "input": "\"First leTTeR of EACH Word\"",
+            "expected": ""
+        },
+        {
+            "input": "\"i lOve leetcode\"",
+            "expected": ""
+        }
+    ]
+}

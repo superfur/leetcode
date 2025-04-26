@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "\"WRRBBW\"",
+            "expected": ""
+        },
+        {
+            "input": "\"RB\"",
+            "expected": ""
+        },
+        {
+            "input": "\"WWRRBBWW\"",
+            "expected": ""
+        },
+        {
+            "input": "\"WRBRW\"",
+            "expected": ""
+        },
+        {
+            "input": "\"G\"",
+            "expected": ""
+        },
+        {
+            "input": "\"GGGGG\"",
+            "expected": ""
+        }
+    ]
+}

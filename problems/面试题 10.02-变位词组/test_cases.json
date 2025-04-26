@@ -1,0 +1,8 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"eat\",\"tea\",\"tan\",\"ate\",\"nat\",\"bat\"]",
+            "expected": ""
+        }
+    ]
+}

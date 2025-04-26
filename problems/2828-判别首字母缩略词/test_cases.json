@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"alice\",\"bob\",\"charlie\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"abc\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"an\",\"apple\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"a\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"never\",\"gonna\",\"give\",\"up\",\"on\",\"you\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"ngguoy\"",
+            "expected": ""
+        }
+    ]
+}

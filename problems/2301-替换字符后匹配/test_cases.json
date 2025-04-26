@@ -1,0 +1,40 @@
+{
+    "test_cases": [
+        {
+            "input": "\"fool3e7bar\"",
+            "expected": ""
+        },
+        {
+            "input": "\"leet\"",
+            "expected": ""
+        },
+        {
+            "input": "[[\"e\",\"3\"],[\"t\",\"7\"],[\"t\",\"8\"]]",
+            "expected": ""
+        },
+        {
+            "input": "\"fooleetbar\"",
+            "expected": ""
+        },
+        {
+            "input": "\"f00l\"",
+            "expected": ""
+        },
+        {
+            "input": "[[\"o\",\"0\"]]",
+            "expected": ""
+        },
+        {
+            "input": "\"Fool33tbaR\"",
+            "expected": ""
+        },
+        {
+            "input": "\"leetd\"",
+            "expected": ""
+        },
+        {
+            "input": "[[\"e\",\"3\"],[\"t\",\"7\"],[\"t\",\"8\"],[\"d\",\"b\"],[\"p\",\"b\"]]",
+            "expected": ""
+        }
+    ]
+}

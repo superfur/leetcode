@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "[9,29,49,50]",
+            "expected": ""
+        },
+        {
+            "input": "\"cbcd\"",
+            "expected": ""
+        },
+        {
+            "input": "[12,23,36,46,62]",
+            "expected": ""
+        },
+        {
+            "input": "\"spuda\"",
+            "expected": ""
+        }
+    ]
+}

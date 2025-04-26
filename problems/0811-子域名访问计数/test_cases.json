@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"9001 discuss.leetcode.com\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"900 google.mail.com\", \"50 yahoo.com\", \"1 intel.mail.com\", \"5 wiki.org\"]",
+            "expected": ""
+        }
+    ]
+}

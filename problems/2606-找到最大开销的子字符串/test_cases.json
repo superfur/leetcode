@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "\"adaa\"",
+            "expected": ""
+        },
+        {
+            "input": "\"d\"",
+            "expected": ""
+        },
+        {
+            "input": "[-1000]",
+            "expected": ""
+        },
+        {
+            "input": "\"abc\"",
+            "expected": ""
+        },
+        {
+            "input": "\"abc\"",
+            "expected": ""
+        },
+        {
+            "input": "[-1,-1,-1]",
+            "expected": ""
+        }
+    ]
+}

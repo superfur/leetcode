@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"sd\",\"ep\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"speed\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"abc\",\"daf\",\"geg\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"sad\"",
+            "expected": ""
+        }
+    ]
+}

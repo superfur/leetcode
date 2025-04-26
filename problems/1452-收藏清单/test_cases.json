@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "[[\"leetcode\",\"google\",\"facebook\"],[\"google\",\"microsoft\"],[\"google\",\"facebook\"],[\"google\"],[\"amazon\"]]",
+            "expected": ""
+        },
+        {
+            "input": "[[\"leetcode\",\"google\",\"facebook\"],[\"leetcode\",\"amazon\"],[\"facebook\",\"google\"]]",
+            "expected": ""
+        },
+        {
+            "input": "[[\"leetcode\"],[\"google\"],[\"facebook\"],[\"amazon\"]]",
+            "expected": ""
+        }
+    ]
+}

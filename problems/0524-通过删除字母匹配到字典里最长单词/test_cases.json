@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "\"abpcplea\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"ale\",\"apple\",\"monkey\",\"plea\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"abpcplea\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"a\",\"b\",\"c\"]",
+            "expected": ""
+        }
+    ]
+}

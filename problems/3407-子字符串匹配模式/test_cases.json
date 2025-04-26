@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "\"leetcode\"",
+            "expected": ""
+        },
+        {
+            "input": "\"ee*e\"",
+            "expected": ""
+        },
+        {
+            "input": "\"car\"",
+            "expected": ""
+        },
+        {
+            "input": "\"c*v\"",
+            "expected": ""
+        },
+        {
+            "input": "\"luck\"",
+            "expected": ""
+        },
+        {
+            "input": "\"u*\"",
+            "expected": ""
+        }
+    ]
+}

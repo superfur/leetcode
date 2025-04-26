@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"Solution\",\"flip\",\"flip\",\"flip\",\"reset\",\"flip\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[3,1],[],[],[],[],[]]",
+            "expected": ""
+        }
+    ]
+}

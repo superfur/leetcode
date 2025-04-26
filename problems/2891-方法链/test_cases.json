@@ -1,0 +1,8 @@
+{
+    "test_cases": [
+        {
+            "input": "{\"headers\":{\"animals\":[\"name\",\"species\",\"age\",\"weight\"]},\"rows\":{\"animals\":[[\"Tatiana\",\"Snake\",98,464],[\"Khaled\",\"Giraffe\",50,41],[\"Alex\",\"Leopard\",6,328],[\"Jonathan\",\"Monkey\",45,463],[\"Stefan\",\"Bear\",100,50],[\"Tommy\",\"Panda\",26,349]]}}",
+            "expected": ""
+        }
+    ]
+}

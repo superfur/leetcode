@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"FrequencyTracker\",\"add\",\"add\",\"hasFrequency\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[],[3],[3],[2]]",
+            "expected": ""
+        },
+        {
+            "input": "[\"FrequencyTracker\",\"add\",\"deleteOne\",\"hasFrequency\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[],[1],[1],[1]]",
+            "expected": ""
+        },
+        {
+            "input": "[\"FrequencyTracker\",\"hasFrequency\",\"add\",\"hasFrequency\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[],[2],[3],[1]]",
+            "expected": ""
+        }
+    ]
+}

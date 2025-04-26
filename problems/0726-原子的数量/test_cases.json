@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "\"H2O\"",
+            "expected": ""
+        },
+        {
+            "input": "\"Mg(OH)2\"",
+            "expected": ""
+        },
+        {
+            "input": "\"K4(ON(SO3)2)2\"",
+            "expected": ""
+        }
+    ]
+}

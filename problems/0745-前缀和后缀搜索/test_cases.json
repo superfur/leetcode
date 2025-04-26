@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"WordFilter\",\"f\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[[\"apple\"]],[\"a\",\"e\"]]",
+            "expected": ""
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "\"42\"",
+            "expected": ""
+        },
+        {
+            "input": "\"   -42\"",
+            "expected": ""
+        },
+        {
+            "input": "\"4193 with words\"",
+            "expected": ""
+        }
+    ]
+}

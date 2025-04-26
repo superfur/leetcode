@@ -1,0 +1,52 @@
+{
+    "test_cases": [
+        {
+            "input": "(x) => x * 5",
+            "expected": ""
+        },
+        {
+            "input": "[2]",
+            "expected": ""
+        },
+        {
+            "input": "20",
+            "expected": ""
+        },
+        {
+            "input": "50",
+            "expected": ""
+        },
+        {
+            "input": "(x) => x**2",
+            "expected": ""
+        },
+        {
+            "input": "[2]",
+            "expected": ""
+        },
+        {
+            "input": "100",
+            "expected": ""
+        },
+        {
+            "input": "50",
+            "expected": ""
+        },
+        {
+            "input": "(x1, x2) => x1 * x2",
+            "expected": ""
+        },
+        {
+            "input": "[2,4]",
+            "expected": ""
+        },
+        {
+            "input": "30",
+            "expected": ""
+        },
+        {
+            "input": "100",
+            "expected": ""
+        }
+    ]
+}

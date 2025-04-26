@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "\"cat and  dog\"",
+            "expected": ""
+        },
+        {
+            "input": "\"!this  1-s b8d!\"",
+            "expected": ""
+        },
+        {
+            "input": "\"alice and  bob are playing stone-game10\"",
+            "expected": ""
+        }
+    ]
+}

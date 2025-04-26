@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"Allocator\",\"allocate\",\"allocate\",\"allocate\",\"freeMemory\",\"allocate\",\"allocate\",\"allocate\",\"freeMemory\",\"allocate\",\"freeMemory\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[10],[1,1],[1,2],[1,3],[2],[3,4],[1,1],[1,1],[1],[10,2],[7]]",
+            "expected": ""
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "\"egg\"",
+            "expected": ""
+        },
+        {
+            "input": "\"add\"",
+            "expected": ""
+        },
+        {
+            "input": "\"foo\"",
+            "expected": ""
+        },
+        {
+            "input": "\"bar\"",
+            "expected": ""
+        },
+        {
+            "input": "\"paper\"",
+            "expected": ""
+        },
+        {
+            "input": "\"title\"",
+            "expected": ""
+        }
+    ]
+}

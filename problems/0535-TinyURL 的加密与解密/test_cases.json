@@ -1,0 +1,8 @@
+{
+    "test_cases": [
+        {
+            "input": "\"https://leetcode.com/problems/design-tinyurl\"",
+            "expected": ""
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"leet->code\",\"leet->code->Campsite->Leet\",\"leet->code->leet->courier\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"Alice->Dex\",\"\",\"Dex\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"\",\"Gryffindor->Slytherin->Gryffindor\",\"Hogwarts->Hufflepuff->Ravenclaw\"]",
+            "expected": ""
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"alice\",\"bob\",\"alice\",\"chris\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"one\",\"two\",\"three\",\"four\"]",
+            "expected": ""
+        },
+        {
+            "input": "[5,10,5,4]",
+            "expected": ""
+        },
+        {
+            "input": "[\"alice\",\"alice\",\"alice\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"a\",\"b\",\"c\"]",
+            "expected": ""
+        },
+        {
+            "input": "[1,2,2]",
+            "expected": ""
+        }
+    ]
+}

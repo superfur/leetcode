@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "\"NWSE\"",
+            "expected": ""
+        },
+        {
+            "input": "1",
+            "expected": ""
+        },
+        {
+            "input": "\"NSWWEW\"",
+            "expected": ""
+        },
+        {
+            "input": "3",
+            "expected": ""
+        }
+    ]
+}

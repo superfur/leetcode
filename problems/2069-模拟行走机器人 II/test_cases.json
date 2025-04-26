@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"Robot\",\"step\",\"step\",\"getPos\",\"getDir\",\"step\",\"step\",\"step\",\"getPos\",\"getDir\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[6,3],[2],[2],[],[],[2],[1],[4],[],[]]",
+            "expected": ""
+        }
+    ]
+}

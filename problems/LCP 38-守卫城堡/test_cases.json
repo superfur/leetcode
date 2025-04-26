@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"S.C.P#P.\", \".....#.S\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"SP#P..P#PC#.S\", \"..#P..P####.#\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"SP#.C.#PS\", \"P.#...#.P\"]",
+            "expected": ""
+        }
+    ]
+}

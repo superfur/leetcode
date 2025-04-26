@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"TripleInOne\", \"push\", \"push\", \"pop\", \"pop\", \"pop\", \"isEmpty\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[1], [0, 1], [0, 2], [0], [0], [0], [0]]",
+            "expected": ""
+        },
+        {
+            "input": "[\"TripleInOne\", \"push\", \"push\", \"push\", \"pop\", \"pop\", \"pop\", \"peek\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[2], [0, 1], [0, 2], [0, 3], [0], [0], [0], [0]]",
+            "expected": ""
+        }
+    ]
+}

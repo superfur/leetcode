@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"Shogun\",\"Tapioca Express\",\"Burger King\",\"KFC\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"Piatti\",\"The Grill at Torrey Pines\",\"Hungry Hunter Steakhouse\",\"Shogun\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"Shogun\",\"Tapioca Express\",\"Burger King\",\"KFC\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"KFC\",\"Shogun\",\"Burger King\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"happy\",\"sad\",\"good\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"sad\",\"happy\",\"good\"]",
+            "expected": ""
+        }
+    ]
+}

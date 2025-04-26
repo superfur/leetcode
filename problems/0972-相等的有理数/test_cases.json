@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "\"0.(52)\"",
+            "expected": ""
+        },
+        {
+            "input": "\"0.5(25)\"",
+            "expected": ""
+        },
+        {
+            "input": "\"0.1666(6)\"",
+            "expected": ""
+        },
+        {
+            "input": "\"0.166(66)\"",
+            "expected": ""
+        },
+        {
+            "input": "\"0.9(9)\"",
+            "expected": ""
+        },
+        {
+            "input": "\"1.\"",
+            "expected": ""
+        }
+    ]
+}

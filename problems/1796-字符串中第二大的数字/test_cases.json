@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "\"dfa12321afd\"",
+            "expected": ""
+        },
+        {
+            "input": "\"abc1111\"",
+            "expected": ""
+        }
+    ]
+}

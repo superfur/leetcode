@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "\"the sky is blue\"",
+            "expected": ""
+        },
+        {
+            "input": "\"  hello world!  \"",
+            "expected": ""
+        },
+        {
+            "input": "\"a good   example\"",
+            "expected": ""
+        }
+    ]
+}

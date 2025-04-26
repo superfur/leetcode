@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "\"AACCGGTT\"",
+            "expected": ""
+        },
+        {
+            "input": "\"AACCGGTA\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"AACCGGTA\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"AACCGGTT\"",
+            "expected": ""
+        },
+        {
+            "input": "\"AAACGGTA\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"AACCGGTA\",\"AACCGCTA\",\"AAACGGTA\"]",
+            "expected": ""
+        }
+    ]
+}

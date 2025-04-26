@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"Bitset\",\"fix\",\"fix\",\"flip\",\"all\",\"unfix\",\"flip\",\"one\",\"unfix\",\"count\",\"toString\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[5],[3],[1],[],[],[0],[],[],[0],[],[]]",
+            "expected": ""
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"abcw\",\"baz\",\"foo\",\"bar\",\"xtfn\",\"abcdef\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"a\",\"ab\",\"abc\",\"d\",\"cd\",\"bcd\",\"abcd\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"a\",\"aa\",\"aaa\",\"aaaa\"]",
+            "expected": ""
+        }
+    ]
+}

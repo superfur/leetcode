@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "\"4321\"",
+            "expected": ""
+        },
+        {
+            "input": "4",
+            "expected": ""
+        },
+        {
+            "input": "\"100\"",
+            "expected": ""
+        },
+        {
+            "input": "1",
+            "expected": ""
+        },
+        {
+            "input": "\"36789\"",
+            "expected": ""
+        },
+        {
+            "input": "1000",
+            "expected": ""
+        }
+    ]
+}

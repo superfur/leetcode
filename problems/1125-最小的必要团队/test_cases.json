@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"java\",\"nodejs\",\"reactjs\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[\"java\"],[\"nodejs\"],[\"nodejs\",\"reactjs\"]]",
+            "expected": ""
+        },
+        {
+            "input": "[\"algorithms\",\"math\",\"java\",\"reactjs\",\"csharp\",\"aws\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[\"algorithms\",\"math\",\"java\"],[\"algorithms\",\"math\",\"reactjs\"],[\"java\",\"csharp\",\"aws\"],[\"reactjs\",\"csharp\"],[\"csharp\",\"math\"],[\"aws\",\"java\"]]",
+            "expected": ""
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"CombinationIterator\",\"next\",\"hasNext\",\"next\",\"hasNext\",\"next\",\"hasNext\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[\"abc\",2],[],[],[],[],[],[]]",
+            "expected": ""
+        }
+    ]
+}

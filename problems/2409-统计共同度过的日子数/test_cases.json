@@ -1,0 +1,36 @@
+{
+    "test_cases": [
+        {
+            "input": "\"08-15\"",
+            "expected": ""
+        },
+        {
+            "input": "\"08-18\"",
+            "expected": ""
+        },
+        {
+            "input": "\"08-16\"",
+            "expected": ""
+        },
+        {
+            "input": "\"08-19\"",
+            "expected": ""
+        },
+        {
+            "input": "\"10-01\"",
+            "expected": ""
+        },
+        {
+            "input": "\"10-31\"",
+            "expected": ""
+        },
+        {
+            "input": "\"11-01\"",
+            "expected": ""
+        },
+        {
+            "input": "\"12-31\"",
+            "expected": ""
+        }
+    ]
+}

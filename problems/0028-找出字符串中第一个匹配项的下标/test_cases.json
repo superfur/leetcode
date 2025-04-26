@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "\"sadbutsad\"",
+            "expected": ""
+        },
+        {
+            "input": "\"sad\"",
+            "expected": ""
+        },
+        {
+            "input": "\"leetcode\"",
+            "expected": ""
+        },
+        {
+            "input": "\"leeto\"",
+            "expected": ""
+        }
+    ]
+}

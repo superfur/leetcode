@@ -1,0 +1,40 @@
+{
+    "test_cases": [
+        {
+            "input": "[1,2,1]",
+            "expected": ""
+        },
+        {
+            "input": "3",
+            "expected": ""
+        },
+        {
+            "input": "[[0,1],[0,2]]",
+            "expected": ""
+        },
+        {
+            "input": "[2,3]",
+            "expected": ""
+        },
+        {
+            "input": "7",
+            "expected": ""
+        },
+        {
+            "input": "[[0,1]]",
+            "expected": ""
+        },
+        {
+            "input": "[7,7,7,7,7,7]",
+            "expected": ""
+        },
+        {
+            "input": "3",
+            "expected": ""
+        },
+        {
+            "input": "[[0,1],[0,2],[0,3],[0,4],[0,5]]",
+            "expected": ""
+        }
+    ]
+}

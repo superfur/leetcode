@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "\"leet2code3\"",
+            "expected": ""
+        },
+        {
+            "input": "10",
+            "expected": ""
+        },
+        {
+            "input": "\"ha22\"",
+            "expected": ""
+        },
+        {
+            "input": "5",
+            "expected": ""
+        },
+        {
+            "input": "\"a2345678999999999999999\"",
+            "expected": ""
+        },
+        {
+            "input": "1",
+            "expected": ""
+        }
+    ]
+}

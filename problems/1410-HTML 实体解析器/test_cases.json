@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "\"&amp; is an HTML entity but &ambassador; is not.\"",
+            "expected": ""
+        },
+        {
+            "input": "\"and I quote: &quot;...&quot;\"",
+            "expected": ""
+        }
+    ]
+}

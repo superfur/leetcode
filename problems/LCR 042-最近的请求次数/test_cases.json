@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"RecentCounter\",\"ping\",\"ping\",\"ping\",\"ping\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[],[1],[100],[3001],[3002]]",
+            "expected": ""
+        }
+    ]
+}

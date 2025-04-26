@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"leetcode\",\"is\",\"amazing\",\"as\",\"is\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"amazing\",\"leetcode\",\"is\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"b\",\"bb\",\"bbb\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"a\",\"aa\",\"aaa\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"a\",\"ab\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"a\",\"a\",\"a\",\"ab\"]",
+            "expected": ""
+        }
+    ]
+}

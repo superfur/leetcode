@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "\"great\"",
+            "expected": ""
+        },
+        {
+            "input": "\"rgeat\"",
+            "expected": ""
+        },
+        {
+            "input": "\"abcde\"",
+            "expected": ""
+        },
+        {
+            "input": "\"caebd\"",
+            "expected": ""
+        },
+        {
+            "input": "\"a\"",
+            "expected": ""
+        },
+        {
+            "input": "\"a\"",
+            "expected": ""
+        }
+    ]
+}

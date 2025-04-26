@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "\"x\"",
+            "expected": ""
+        },
+        {
+            "input": "\"y\"",
+            "expected": ""
+        },
+        {
+            "input": "\"xbdef\"",
+            "expected": ""
+        },
+        {
+            "input": "\"xecab\"",
+            "expected": ""
+        },
+        {
+            "input": "\"ulacfd\"",
+            "expected": ""
+        },
+        {
+            "input": "\"jizalu\"",
+            "expected": ""
+        }
+    ]
+}

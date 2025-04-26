@@ -1,0 +1,36 @@
+{
+    "test_cases": [
+        {
+            "input": "\"abcd\"",
+            "expected": ""
+        },
+        {
+            "input": "[0, 2]",
+            "expected": ""
+        },
+        {
+            "input": "[\"a\", \"cd\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"eee\", \"ffff\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"abcd\"",
+            "expected": ""
+        },
+        {
+            "input": "[0, 2]",
+            "expected": ""
+        },
+        {
+            "input": "[\"ab\",\"ec\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"eee\",\"ffff\"]",
+            "expected": ""
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"LFUCache\",\"put\",\"put\",\"get\",\"put\",\"get\",\"get\",\"put\",\"get\",\"get\",\"get\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[2],[1,1],[2,2],[1],[3,3],[2],[3],[4,4],[1],[3],[4]]",
+            "expected": ""
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"S#O\", \"M..\", \"M.T\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"S#O\", \"M.#\", \"M.T\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"S#O\", \"M.T\", \"M..\"]",
+            "expected": ""
+        }
+    ]
+}

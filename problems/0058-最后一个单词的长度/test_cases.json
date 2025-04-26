@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "\"Hello World\"",
+            "expected": ""
+        },
+        {
+            "input": "\"   fly me   to   the moon  \"",
+            "expected": ""
+        },
+        {
+            "input": "\"luffy is still joyboy\"",
+            "expected": ""
+        }
+    ]
+}

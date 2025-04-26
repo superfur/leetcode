@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"cat\",\"cats\",\"catsdogcats\",\"dog\",\"dogcatsdog\",\"hippopotamuses\",\"rat\",\"ratcatdogcat\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"cat\",\"dog\",\"catdog\"]",
+            "expected": ""
+        }
+    ]
+}

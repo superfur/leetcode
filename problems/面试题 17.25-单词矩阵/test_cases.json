@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"this\", \"real\", \"hard\", \"trh\", \"hea\", \"iar\", \"sld\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"aa\"]",
+            "expected": ""
+        }
+    ]
+}

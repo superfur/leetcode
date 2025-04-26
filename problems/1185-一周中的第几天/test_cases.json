@@ -1,0 +1,40 @@
+{
+    "test_cases": [
+        {
+            "input": "31",
+            "expected": ""
+        },
+        {
+            "input": "8",
+            "expected": ""
+        },
+        {
+            "input": "2019",
+            "expected": ""
+        },
+        {
+            "input": "18",
+            "expected": ""
+        },
+        {
+            "input": "7",
+            "expected": ""
+        },
+        {
+            "input": "1999",
+            "expected": ""
+        },
+        {
+            "input": "15",
+            "expected": ""
+        },
+        {
+            "input": "8",
+            "expected": ""
+        },
+        {
+            "input": "1993",
+            "expected": ""
+        }
+    ]
+}

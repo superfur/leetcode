@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"StreamRank\", \"getRankOfNumber\", \"track\", \"getRankOfNumber\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[], [1], [0], [0]]",
+            "expected": ""
+        }
+    ]
+}

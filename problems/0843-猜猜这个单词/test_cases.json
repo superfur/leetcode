@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "\"acckzz\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"acckzz\",\"ccbazz\",\"eiowzz\",\"abcczz\"]",
+            "expected": ""
+        },
+        {
+            "input": "10",
+            "expected": ""
+        },
+        {
+            "input": "\"hamada\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"hamada\",\"khaled\"]",
+            "expected": ""
+        },
+        {
+            "input": "10",
+            "expected": ""
+        }
+    ]
+}

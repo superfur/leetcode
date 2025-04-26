@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"bella\",\"label\",\"roller\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"cool\",\"lock\",\"cook\"]",
+            "expected": ""
+        }
+    ]
+}

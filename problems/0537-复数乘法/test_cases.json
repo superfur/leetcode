@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "\"1+1i\"",
+            "expected": ""
+        },
+        {
+            "input": "\"1+1i\"",
+            "expected": ""
+        },
+        {
+            "input": "\"1+-1i\"",
+            "expected": ""
+        },
+        {
+            "input": "\"1+-1i\"",
+            "expected": ""
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"PeekingIterator\",\"next\",\"peek\",\"next\",\"next\",\"hasNext\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[[1,2,3]],[],[],[],[],[]]",
+            "expected": ""
+        }
+    ]
+}

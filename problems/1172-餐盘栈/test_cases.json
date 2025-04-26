@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"DinnerPlates\",\"push\",\"push\",\"push\",\"push\",\"push\",\"popAtStack\",\"push\",\"push\",\"popAtStack\",\"popAtStack\",\"pop\",\"pop\",\"pop\",\"pop\",\"pop\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[2],[1],[2],[3],[4],[5],[0],[20],[21],[0],[2],[],[],[],[],[]]",
+            "expected": ""
+        }
+    ]
+}

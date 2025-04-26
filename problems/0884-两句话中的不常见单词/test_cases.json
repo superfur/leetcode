@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "\"this apple is sweet\"",
+            "expected": ""
+        },
+        {
+            "input": "\"this apple is sour\"",
+            "expected": ""
+        },
+        {
+            "input": "\"apple apple\"",
+            "expected": ""
+        },
+        {
+            "input": "\"banana\"",
+            "expected": ""
+        }
+    ]
+}

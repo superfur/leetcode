@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "[x => x + 1, x => x * x, x => 2 * x]",
+            "expected": ""
+        },
+        {
+            "input": "4",
+            "expected": ""
+        },
+        {
+            "input": "[x => 10 * x, x => 10 * x, x => 10 * x]",
+            "expected": ""
+        },
+        {
+            "input": "1",
+            "expected": ""
+        },
+        {
+            "input": "[]",
+            "expected": ""
+        },
+        {
+            "input": "42",
+            "expected": ""
+        }
+    ]
+}

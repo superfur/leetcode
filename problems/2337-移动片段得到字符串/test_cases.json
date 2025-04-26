@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "\"_L__R__R_\"",
+            "expected": ""
+        },
+        {
+            "input": "\"L______RR\"",
+            "expected": ""
+        },
+        {
+            "input": "\"R_L_\"",
+            "expected": ""
+        },
+        {
+            "input": "\"__LR\"",
+            "expected": ""
+        },
+        {
+            "input": "\"_R\"",
+            "expected": ""
+        },
+        {
+            "input": "\"R_\"",
+            "expected": ""
+        }
+    ]
+}

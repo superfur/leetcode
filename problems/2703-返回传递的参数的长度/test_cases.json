@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[5]",
+            "expected": ""
+        },
+        {
+            "input": "[{},null,\"3\"]",
+            "expected": ""
+        }
+    ]
+}

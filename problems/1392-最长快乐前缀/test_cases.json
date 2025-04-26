@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "\"level\"",
+            "expected": ""
+        },
+        {
+            "input": "\"ababab\"",
+            "expected": ""
+        }
+    ]
+}

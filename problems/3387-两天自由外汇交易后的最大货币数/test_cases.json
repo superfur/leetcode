@@ -1,0 +1,64 @@
+{
+    "test_cases": [
+        {
+            "input": "\"EUR\"",
+            "expected": ""
+        },
+        {
+            "input": "[[\"EUR\",\"USD\"],[\"USD\",\"JPY\"]]",
+            "expected": ""
+        },
+        {
+            "input": "[2.0,3.0]",
+            "expected": ""
+        },
+        {
+            "input": "[[\"JPY\",\"USD\"],[\"USD\",\"CHF\"],[\"CHF\",\"EUR\"]]",
+            "expected": ""
+        },
+        {
+            "input": "[4.0,5.0,6.0]",
+            "expected": ""
+        },
+        {
+            "input": "\"NGN\"",
+            "expected": ""
+        },
+        {
+            "input": "[[\"NGN\",\"EUR\"]]",
+            "expected": ""
+        },
+        {
+            "input": "[9.0]",
+            "expected": ""
+        },
+        {
+            "input": "[[\"NGN\",\"EUR\"]]",
+            "expected": ""
+        },
+        {
+            "input": "[6.0]",
+            "expected": ""
+        },
+        {
+            "input": "\"USD\"",
+            "expected": ""
+        },
+        {
+            "input": "[[\"USD\",\"EUR\"]]",
+            "expected": ""
+        },
+        {
+            "input": "[1.0]",
+            "expected": ""
+        },
+        {
+            "input": "[[\"EUR\",\"JPY\"]]",
+            "expected": ""
+        },
+        {
+            "input": "[10.0]",
+            "expected": ""
+        }
+    ]
+}

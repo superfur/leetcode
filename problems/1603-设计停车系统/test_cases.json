@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"ParkingSystem\",\"addCar\",\"addCar\",\"addCar\",\"addCar\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[1,1,0],[1],[2],[3],[1]]",
+            "expected": ""
+        }
+    ]
+}

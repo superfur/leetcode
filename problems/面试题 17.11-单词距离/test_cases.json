@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"I\",\"am\",\"a\",\"student\",\"from\",\"a\",\"university\",\"in\",\"a\",\"city\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"a\"",
+            "expected": ""
+        },
+        {
+            "input": "\"student\"",
+            "expected": ""
+        }
+    ]
+}

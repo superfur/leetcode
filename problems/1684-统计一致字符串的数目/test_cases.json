@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "\"ab\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"ad\",\"bd\",\"aaab\",\"baa\",\"badab\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"abc\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"a\",\"b\",\"c\",\"ab\",\"ac\",\"bc\",\"abc\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"cad\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"cc\",\"acd\",\"b\",\"ba\",\"bac\",\"bad\",\"ac\",\"d\"]",
+            "expected": ""
+        }
+    ]
+}

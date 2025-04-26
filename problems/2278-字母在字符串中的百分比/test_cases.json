@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "\"foobar\"",
+            "expected": ""
+        },
+        {
+            "input": "\"o\"",
+            "expected": ""
+        },
+        {
+            "input": "\"jjjj\"",
+            "expected": ""
+        },
+        {
+            "input": "\"k\"",
+            "expected": ""
+        }
+    ]
+}

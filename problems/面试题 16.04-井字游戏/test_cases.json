@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"OX \",\"OX \",\"O  \"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"O\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"OOXXOXXX\",\"XXXOXOXO\",\"OXOXXXOO\",\"XOXOXXXX\",\"OXOOXOOO\",\"XOOOOOOO\",\"OXXXOOOX\",\"XOXOOXXX\"]",
+            "expected": ""
+        }
+    ]
+}

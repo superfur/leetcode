@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"Encrypter\",\"encrypt\",\"decrypt\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[[\"a\",\"b\",\"c\",\"d\"],[\"ei\",\"zf\",\"ei\",\"am\"],[\"abcd\",\"acbd\",\"adbc\",\"badc\",\"dacb\",\"cadb\",\"cbda\",\"abad\"]],[\"abcd\"],[\"eizfeiam\"]]",
+            "expected": ""
+        }
+    ]
+}

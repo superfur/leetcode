@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "\"the quick brown fox jumps over the lazy dog\"",
+            "expected": ""
+        },
+        {
+            "input": "\"vkbs bs t suepuv\"",
+            "expected": ""
+        },
+        {
+            "input": "\"eljuxhpwnyrdgtqkviszcfmabo\"",
+            "expected": ""
+        },
+        {
+            "input": "\"zwx hnfx lqantp mnoeius ycgk vcnjrdb\"",
+            "expected": ""
+        }
+    ]
+}

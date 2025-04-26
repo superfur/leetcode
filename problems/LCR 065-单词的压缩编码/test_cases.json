@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"time\",\"me\",\"bell\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"t\"]",
+            "expected": ""
+        }
+    ]
+}

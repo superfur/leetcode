@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"a==b\",\"b!=a\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"b==a\",\"a==b\"]",
+            "expected": ""
+        }
+    ]
+}

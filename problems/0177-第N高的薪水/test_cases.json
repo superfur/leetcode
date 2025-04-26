@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "{\"headers\": {\"Employee\": [\"id\", \"salary\"]}, \"argument\": 2, \"rows\": {\"Employee\": [[1, 100], [2, 200], [3, 300]]}}",
+            "expected": ""
+        },
+        {
+            "input": "{\"headers\": {\"Employee\": [\"id\", \"salary\"]}, \"argument\": 2, \"rows\": {\"Employee\": [[1, 100]]}}",
+            "expected": ""
+        }
+    ]
+}

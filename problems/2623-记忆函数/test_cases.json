@@ -1,0 +1,40 @@
+{
+    "test_cases": [
+        {
+            "input": "\"sum\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"call\",\"call\",\"getCallCount\",\"call\",\"getCallCount\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[2,2],[2,2],[],[1,2],[]]",
+            "expected": ""
+        },
+        {
+            "input": "\"factorial\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"call\",\"call\",\"call\",\"getCallCount\",\"call\",\"getCallCount\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[2],[3],[2],[],[3],[]]",
+            "expected": ""
+        },
+        {
+            "input": "\"fib\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"call\",\"getCallCount\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[5],[]]",
+            "expected": ""
+        }
+    ]
+}

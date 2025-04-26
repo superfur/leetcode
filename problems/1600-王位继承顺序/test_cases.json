@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"ThroneInheritance\",\"birth\",\"birth\",\"birth\",\"birth\",\"birth\",\"birth\",\"getInheritanceOrder\",\"death\",\"getInheritanceOrder\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[\"king\"],[\"king\",\"andy\"],[\"king\",\"bob\"],[\"king\",\"catherine\"],[\"andy\",\"matthew\"],[\"bob\",\"alex\"],[\"bob\",\"asha\"],[null],[\"bob\"],[null]]",
+            "expected": ""
+        }
+    ]
+}

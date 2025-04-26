@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "\"leetcode exercises sound delightful\"",
+            "expected": ""
+        },
+        {
+            "input": "\"eetcode\"",
+            "expected": ""
+        },
+        {
+            "input": "\"Leetcode is cool\"",
+            "expected": ""
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "\"GGLLGG\"",
+            "expected": ""
+        },
+        {
+            "input": "\"GG\"",
+            "expected": ""
+        },
+        {
+            "input": "\"GL\"",
+            "expected": ""
+        }
+    ]
+}

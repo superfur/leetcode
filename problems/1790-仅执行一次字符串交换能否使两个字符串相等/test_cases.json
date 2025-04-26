@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "\"bank\"",
+            "expected": ""
+        },
+        {
+            "input": "\"kanb\"",
+            "expected": ""
+        },
+        {
+            "input": "\"attack\"",
+            "expected": ""
+        },
+        {
+            "input": "\"defend\"",
+            "expected": ""
+        },
+        {
+            "input": "\"kelb\"",
+            "expected": ""
+        },
+        {
+            "input": "\"kelb\"",
+            "expected": ""
+        }
+    ]
+}

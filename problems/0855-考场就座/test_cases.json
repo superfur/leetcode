@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"ExamRoom\",\"seat\",\"seat\",\"seat\",\"seat\",\"leave\",\"seat\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[10],[],[],[],[],[4],[]]",
+            "expected": ""
+        }
+    ]
+}

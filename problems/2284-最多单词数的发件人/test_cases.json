@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"Hello userTwooo\",\"Hi userThree\",\"Wonderful day Alice\",\"Nice day userThree\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"Alice\",\"userTwo\",\"userThree\",\"Alice\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"How is leetcode for everyone\",\"Leetcode is useful for practice\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"Bob\",\"Charlie\"]",
+            "expected": ""
+        }
+    ]
+}

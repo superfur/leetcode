@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "\"bab\"",
+            "expected": ""
+        },
+        {
+            "input": "\"aba\"",
+            "expected": ""
+        },
+        {
+            "input": "\"leetcode\"",
+            "expected": ""
+        },
+        {
+            "input": "\"practice\"",
+            "expected": ""
+        },
+        {
+            "input": "\"anagram\"",
+            "expected": ""
+        },
+        {
+            "input": "\"mangaar\"",
+            "expected": ""
+        }
+    ]
+}

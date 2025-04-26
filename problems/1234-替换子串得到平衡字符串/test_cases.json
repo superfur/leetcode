@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "\"QWER\"",
+            "expected": ""
+        },
+        {
+            "input": "\"QQWE\"",
+            "expected": ""
+        },
+        {
+            "input": "\"QQQW\"",
+            "expected": ""
+        }
+    ]
+}

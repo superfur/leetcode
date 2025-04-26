@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "\"bcca\"",
+            "expected": ""
+        },
+        {
+            "input": "\"abc\"",
+            "expected": ""
+        },
+        {
+            "input": "\"abcabc\"",
+            "expected": ""
+        },
+        {
+            "input": "\"abc\"",
+            "expected": ""
+        },
+        {
+            "input": "\"abcabc\"",
+            "expected": ""
+        },
+        {
+            "input": "\"aaabc\"",
+            "expected": ""
+        }
+    ]
+}

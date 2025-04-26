@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"TextEditor\",\"addText\",\"deleteText\",\"addText\",\"cursorRight\",\"cursorLeft\",\"deleteText\",\"cursorLeft\",\"cursorRight\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[],[\"leetcode\"],[4],[\"practice\"],[3],[8],[10],[2],[6]]",
+            "expected": ""
+        }
+    ]
+}

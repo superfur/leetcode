@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"MyCircularDeque\",\"insertLast\",\"insertLast\",\"insertFront\",\"insertFront\",\"getRear\",\"isFull\",\"deleteLast\",\"insertFront\",\"getFront\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[3],[1],[2],[3],[4],[],[],[],[4],[]]",
+            "expected": ""
+        }
+    ]
+}

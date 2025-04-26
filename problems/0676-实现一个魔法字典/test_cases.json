@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"MagicDictionary\", \"buildDict\", \"search\", \"search\", \"search\", \"search\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[], [[\"hello\",\"leetcode\"]], [\"hello\"], [\"hhllo\"], [\"hell\"], [\"leetcoded\"]]",
+            "expected": ""
+        }
+    ]
+}

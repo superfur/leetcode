@@ -1,0 +1,36 @@
+{
+    "test_cases": [
+        {
+            "input": "\"))()))\"",
+            "expected": ""
+        },
+        {
+            "input": "\"010100\"",
+            "expected": ""
+        },
+        {
+            "input": "\"()()\"",
+            "expected": ""
+        },
+        {
+            "input": "\"0000\"",
+            "expected": ""
+        },
+        {
+            "input": "\")\"",
+            "expected": ""
+        },
+        {
+            "input": "\"0\"",
+            "expected": ""
+        },
+        {
+            "input": "\"(((())(((())\"",
+            "expected": ""
+        },
+        {
+            "input": "\"111111010111\"",
+            "expected": ""
+        }
+    ]
+}

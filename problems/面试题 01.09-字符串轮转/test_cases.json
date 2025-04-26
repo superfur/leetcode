@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "\"waterbottle\"",
+            "expected": ""
+        },
+        {
+            "input": "\"erbottlewat\"",
+            "expected": ""
+        },
+        {
+            "input": "\"aa\"",
+            "expected": ""
+        },
+        {
+            "input": "\"aba\"",
+            "expected": ""
+        }
+    ]
+}

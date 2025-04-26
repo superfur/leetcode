@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "() => [[2,2],[2,2],[1,2]]",
+            "expected": ""
+        },
+        {
+            "input": "function (a, b) { return a + b; }",
+            "expected": ""
+        },
+        {
+            "input": "() => [[{},{}],[{},{}],[{},{}]]",
+            "expected": ""
+        },
+        {
+            "input": "function (a, b) { return ({...a, ...b}); }",
+            "expected": ""
+        },
+        {
+            "input": "() => { const o = {}; return [[o,o],[o,o],[o,o]]; }",
+            "expected": ""
+        },
+        {
+            "input": "function (a, b) { return ({...a, ...b}); }",
+            "expected": ""
+        }
+    ]
+}

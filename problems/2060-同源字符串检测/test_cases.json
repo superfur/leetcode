@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "\"internationalization\"",
+            "expected": ""
+        },
+        {
+            "input": "\"i18n\"",
+            "expected": ""
+        },
+        {
+            "input": "\"l123e\"",
+            "expected": ""
+        },
+        {
+            "input": "\"44\"",
+            "expected": ""
+        },
+        {
+            "input": "\"a5b\"",
+            "expected": ""
+        },
+        {
+            "input": "\"c5b\"",
+            "expected": ""
+        }
+    ]
+}

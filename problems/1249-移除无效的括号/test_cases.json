@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "\"lee(t(c)o)de)\"",
+            "expected": ""
+        },
+        {
+            "input": "\"a)b(c)d\"",
+            "expected": ""
+        },
+        {
+            "input": "\"))((\"",
+            "expected": ""
+        }
+    ]
+}

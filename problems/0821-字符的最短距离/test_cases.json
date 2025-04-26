@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "\"loveleetcode\"",
+            "expected": ""
+        },
+        {
+            "input": "\"e\"",
+            "expected": ""
+        },
+        {
+            "input": "\"aaab\"",
+            "expected": ""
+        },
+        {
+            "input": "\"b\"",
+            "expected": ""
+        }
+    ]
+}

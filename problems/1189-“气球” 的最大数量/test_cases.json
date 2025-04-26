@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "\"nlaebolko\"",
+            "expected": ""
+        },
+        {
+            "input": "\"loonbalxballpoon\"",
+            "expected": ""
+        },
+        {
+            "input": "\"leetcode\"",
+            "expected": ""
+        }
+    ]
+}

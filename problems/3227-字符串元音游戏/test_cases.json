@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "\"leetcoder\"",
+            "expected": ""
+        },
+        {
+            "input": "\"bbcd\"",
+            "expected": ""
+        }
+    ]
+}

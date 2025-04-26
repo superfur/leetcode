@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "\"cbaaaabc\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"aaa\",\"cb\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"leetcode\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"de\",\"le\",\"e\"]",
+            "expected": ""
+        }
+    ]
+}

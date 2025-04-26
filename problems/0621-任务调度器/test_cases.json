@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"A\",\"A\",\"A\",\"B\",\"B\",\"B\"]",
+            "expected": ""
+        },
+        {
+            "input": "2",
+            "expected": ""
+        },
+        {
+            "input": "[\"A\",\"C\",\"A\",\"B\",\"D\",\"B\"]",
+            "expected": ""
+        },
+        {
+            "input": "1",
+            "expected": ""
+        },
+        {
+            "input": "[\"A\",\"A\",\"A\", \"B\",\"B\",\"B\"]",
+            "expected": ""
+        },
+        {
+            "input": "3",
+            "expected": ""
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "\"IDID\"",
+            "expected": ""
+        },
+        {
+            "input": "\"III\"",
+            "expected": ""
+        },
+        {
+            "input": "\"DDI\"",
+            "expected": ""
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "\"(name)is(age)yearsold\"",
+            "expected": ""
+        },
+        {
+            "input": "[[\"name\",\"bob\"],[\"age\",\"two\"]]",
+            "expected": ""
+        },
+        {
+            "input": "\"hi(name)\"",
+            "expected": ""
+        },
+        {
+            "input": "[[\"a\",\"b\"]]",
+            "expected": ""
+        },
+        {
+            "input": "\"(a)(a)(a)aaa\"",
+            "expected": ""
+        },
+        {
+            "input": "[[\"a\",\"yes\"]]",
+            "expected": ""
+        }
+    ]
+}

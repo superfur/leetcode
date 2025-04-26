@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "\"godding\"",
+            "expected": ""
+        },
+        {
+            "input": "\"gd\"",
+            "expected": ""
+        },
+        {
+            "input": "\"godding\"",
+            "expected": ""
+        },
+        {
+            "input": "\"godding\"",
+            "expected": ""
+        }
+    ]
+}

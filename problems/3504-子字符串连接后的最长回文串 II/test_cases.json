@@ -1,0 +1,36 @@
+{
+    "test_cases": [
+        {
+            "input": "\"a\"",
+            "expected": ""
+        },
+        {
+            "input": "\"a\"",
+            "expected": ""
+        },
+        {
+            "input": "\"abc\"",
+            "expected": ""
+        },
+        {
+            "input": "\"def\"",
+            "expected": ""
+        },
+        {
+            "input": "\"b\"",
+            "expected": ""
+        },
+        {
+            "input": "\"aaaa\"",
+            "expected": ""
+        },
+        {
+            "input": "\"abcde\"",
+            "expected": ""
+        },
+        {
+            "input": "\"ecdba\"",
+            "expected": ""
+        }
+    ]
+}

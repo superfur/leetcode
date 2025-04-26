@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "\"HOW ARE YOU\"",
+            "expected": ""
+        },
+        {
+            "input": "\"TO BE OR NOT TO BE\"",
+            "expected": ""
+        },
+        {
+            "input": "\"CONTEST IS COMING\"",
+            "expected": ""
+        }
+    ]
+}

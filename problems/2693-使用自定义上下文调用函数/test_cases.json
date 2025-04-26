@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "function add(b) { return this.a + b; }",
+            "expected": ""
+        },
+        {
+            "input": "[{\"a\":5},7]",
+            "expected": ""
+        },
+        {
+            "input": "function tax(price, taxRate) { return `The cost of the ${this.item} is ${price * taxRate}`; }",
+            "expected": ""
+        },
+        {
+            "input": "[{\"item\":\"burger\"},10,1.1]",
+            "expected": ""
+        }
+    ]
+}

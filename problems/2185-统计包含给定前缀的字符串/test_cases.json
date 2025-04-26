@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"pay\",\"attention\",\"practice\",\"attend\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"at\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"leetcode\",\"win\",\"loops\",\"success\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"code\"",
+            "expected": ""
+        }
+    ]
+}

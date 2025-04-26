@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"FreqStack\",\"push\",\"push\",\"push\",\"push\",\"push\",\"push\",\"pop\",\"pop\",\"pop\",\"pop\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[],[5],[7],[5],[7],[4],[5],[],[],[],[]]",
+            "expected": ""
+        }
+    ]
+}

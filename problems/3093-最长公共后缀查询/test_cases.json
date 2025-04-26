@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"abcd\",\"bcd\",\"xbcd\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"cd\",\"bcd\",\"xyz\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"abcdefgh\",\"poiuygh\",\"ghghgh\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"gh\",\"acbfgh\",\"acbfegh\"]",
+            "expected": ""
+        }
+    ]
+}

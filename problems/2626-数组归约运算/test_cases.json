@@ -1,0 +1,40 @@
+{
+    "test_cases": [
+        {
+            "input": "[1,2,3,4]",
+            "expected": ""
+        },
+        {
+            "input": "function sum(accum, curr) { return accum + curr; }",
+            "expected": ""
+        },
+        {
+            "input": "0",
+            "expected": ""
+        },
+        {
+            "input": "[1,2,3,4]",
+            "expected": ""
+        },
+        {
+            "input": "function sum(accum, curr) { return accum + curr * curr; }",
+            "expected": ""
+        },
+        {
+            "input": "100",
+            "expected": ""
+        },
+        {
+            "input": "[]",
+            "expected": ""
+        },
+        {
+            "input": "function sum(accum, curr) { return 0; }",
+            "expected": ""
+        },
+        {
+            "input": "25",
+            "expected": ""
+        }
+    ]
+}

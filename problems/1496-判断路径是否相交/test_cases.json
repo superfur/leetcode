@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "\"NES\"",
+            "expected": ""
+        },
+        {
+            "input": "\"NESWW\"",
+            "expected": ""
+        }
+    ]
+}

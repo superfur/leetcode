@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"eat\",\"tea\",\"tan\",\"ate\",\"nat\",\"bat\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"a\"]",
+            "expected": ""
+        }
+    ]
+}

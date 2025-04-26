@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "50",
+            "expected": ""
+        },
+        {
+            "input": "[{\"t\":50,\"inputs\":[1]},{\"t\":75,\"inputs\":[2]}]",
+            "expected": ""
+        },
+        {
+            "input": "20",
+            "expected": ""
+        },
+        {
+            "input": "[{\"t\":50,\"inputs\":[1]},{\"t\":100,\"inputs\":[2]}]",
+            "expected": ""
+        },
+        {
+            "input": "150",
+            "expected": ""
+        },
+        {
+            "input": "[{\"t\":50,\"inputs\":[1,2]},{\"t\":300,\"inputs\":[3,4]},{\"t\":300,\"inputs\":[5,6]}]",
+            "expected": ""
+        }
+    ]
+}

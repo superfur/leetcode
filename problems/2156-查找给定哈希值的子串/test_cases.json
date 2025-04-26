@@ -1,0 +1,44 @@
+{
+    "test_cases": [
+        {
+            "input": "\"leetcode\"",
+            "expected": ""
+        },
+        {
+            "input": "7",
+            "expected": ""
+        },
+        {
+            "input": "20",
+            "expected": ""
+        },
+        {
+            "input": "2",
+            "expected": ""
+        },
+        {
+            "input": "0",
+            "expected": ""
+        },
+        {
+            "input": "\"fbxzaad\"",
+            "expected": ""
+        },
+        {
+            "input": "31",
+            "expected": ""
+        },
+        {
+            "input": "100",
+            "expected": ""
+        },
+        {
+            "input": "3",
+            "expected": ""
+        },
+        {
+            "input": "32",
+            "expected": ""
+        }
+    ]
+}

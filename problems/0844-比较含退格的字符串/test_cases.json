@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "\"ab#c\"",
+            "expected": ""
+        },
+        {
+            "input": "\"ad#c\"",
+            "expected": ""
+        },
+        {
+            "input": "\"ab##\"",
+            "expected": ""
+        },
+        {
+            "input": "\"c#d#\"",
+            "expected": ""
+        },
+        {
+            "input": "\"a#c\"",
+            "expected": ""
+        },
+        {
+            "input": "\"b\"",
+            "expected": ""
+        }
+    ]
+}

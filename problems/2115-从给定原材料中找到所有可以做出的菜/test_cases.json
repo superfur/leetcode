@@ -1,0 +1,40 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"bread\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[\"yeast\",\"flour\"]]",
+            "expected": ""
+        },
+        {
+            "input": "[\"yeast\",\"flour\",\"corn\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"bread\",\"sandwich\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[\"yeast\",\"flour\"],[\"bread\",\"meat\"]]",
+            "expected": ""
+        },
+        {
+            "input": "[\"yeast\",\"flour\",\"meat\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"bread\",\"sandwich\",\"burger\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[\"yeast\",\"flour\"],[\"bread\",\"meat\"],[\"sandwich\",\"meat\",\"bread\"]]",
+            "expected": ""
+        },
+        {
+            "input": "[\"yeast\",\"flour\",\"meat\"]",
+            "expected": ""
+        }
+    ]
+}

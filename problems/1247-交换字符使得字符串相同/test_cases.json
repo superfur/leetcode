@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "\"xx\"",
+            "expected": ""
+        },
+        {
+            "input": "\"yy\"",
+            "expected": ""
+        },
+        {
+            "input": "\"xy\"",
+            "expected": ""
+        },
+        {
+            "input": "\"yx\"",
+            "expected": ""
+        },
+        {
+            "input": "\"xx\"",
+            "expected": ""
+        },
+        {
+            "input": "\"xy\"",
+            "expected": ""
+        }
+    ]
+}

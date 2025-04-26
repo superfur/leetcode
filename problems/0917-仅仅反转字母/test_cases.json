@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "\"ab-cd\"",
+            "expected": ""
+        },
+        {
+            "input": "\"a-bC-dEf-ghIj\"",
+            "expected": ""
+        },
+        {
+            "input": "\"Test1ng-Leet=code-Q!\"",
+            "expected": ""
+        }
+    ]
+}

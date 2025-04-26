@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"jump\",\"run\",\"run\",\"jump\",\"run\"]",
+            "expected": ""
+        },
+        {
+            "input": "2",
+            "expected": ""
+        },
+        {
+            "input": "[\"dog\",\"racer\",\"car\"]",
+            "expected": ""
+        },
+        {
+            "input": "2",
+            "expected": ""
+        }
+    ]
+}

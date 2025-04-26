@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "[[1,2],[3,4]]",
+            "expected": ""
+        },
+        {
+            "input": "\"Add\"",
+            "expected": ""
+        },
+        {
+            "input": "[[23,98,42,70]]",
+            "expected": ""
+        },
+        {
+            "input": "\"String\"",
+            "expected": ""
+        },
+        {
+            "input": "[[],[]]",
+            "expected": ""
+        },
+        {
+            "input": "\"Add\"",
+            "expected": ""
+        }
+    ]
+}

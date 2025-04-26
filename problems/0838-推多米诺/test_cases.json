@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "\"RR.L\"",
+            "expected": ""
+        },
+        {
+            "input": "\".L.R...LR..L..\"",
+            "expected": ""
+        }
+    ]
+}

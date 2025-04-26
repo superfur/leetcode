@@ -1,0 +1,24 @@
+{
+    "test_cases": [
+        {
+            "input": "\"42\"",
+            "expected": ""
+        },
+        {
+            "input": "\"   -042\"",
+            "expected": ""
+        },
+        {
+            "input": "\"1337c0d3\"",
+            "expected": ""
+        },
+        {
+            "input": "\"0-1\"",
+            "expected": ""
+        },
+        {
+            "input": "\"words and 987\"",
+            "expected": ""
+        }
+    ]
+}

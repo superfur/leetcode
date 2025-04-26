@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "\"<DIV>This is the first line <![CDATA[<div>]]></DIV>\"",
+            "expected": ""
+        },
+        {
+            "input": "\"<DIV>>>  ![cdata[]] <![CDATA[<div>]>]]>]]>>]</DIV>\"",
+            "expected": ""
+        },
+        {
+            "input": "\"<A>  <B> </A>   </B>\"",
+            "expected": ""
+        }
+    ]
+}

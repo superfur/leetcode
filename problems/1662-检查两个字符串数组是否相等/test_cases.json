@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"ab\", \"c\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"a\", \"bc\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"a\", \"cb\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"ab\", \"c\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"abc\", \"d\", \"defg\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"abcddefg\"]",
+            "expected": ""
+        }
+    ]
+}

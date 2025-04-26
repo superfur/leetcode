@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "\"cdbcbbaaabab\"",
+            "expected": ""
+        },
+        {
+            "input": "4",
+            "expected": ""
+        },
+        {
+            "input": "5",
+            "expected": ""
+        },
+        {
+            "input": "\"aabbaaxybbaabb\"",
+            "expected": ""
+        },
+        {
+            "input": "5",
+            "expected": ""
+        },
+        {
+            "input": "4",
+            "expected": ""
+        }
+    ]
+}

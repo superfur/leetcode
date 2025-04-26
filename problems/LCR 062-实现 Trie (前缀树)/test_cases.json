@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"Trie\",\"insert\",\"search\",\"search\",\"startsWith\",\"insert\",\"search\"]",
+            "expected": ""
+        },
+        {
+            "input": "[[],[\"apple\"],[\"apple\"],[\"app\"],[\"app\"],[\"app\"],[\"app\"]]",
+            "expected": ""
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "\"SSPPSPS\"",
+            "expected": ""
+        },
+        {
+            "input": "\"PPSPSP\"",
+            "expected": ""
+        },
+        {
+            "input": "\"S\"",
+            "expected": ""
+        }
+    ]
+}

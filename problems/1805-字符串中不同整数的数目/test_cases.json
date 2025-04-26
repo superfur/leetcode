@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "\"a123bc34d8ef34\"",
+            "expected": ""
+        },
+        {
+            "input": "\"leet1234code234\"",
+            "expected": ""
+        },
+        {
+            "input": "\"a1b01c001\"",
+            "expected": ""
+        }
+    ]
+}

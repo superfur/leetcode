@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "\"&(|(f))\"",
+            "expected": ""
+        },
+        {
+            "input": "\"|(f,f,f,t)\"",
+            "expected": ""
+        },
+        {
+            "input": "\"!(&(f,t))\"",
+            "expected": ""
+        }
+    ]
+}

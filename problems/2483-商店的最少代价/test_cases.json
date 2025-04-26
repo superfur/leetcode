@@ -1,0 +1,16 @@
+{
+    "test_cases": [
+        {
+            "input": "\"YYNY\"",
+            "expected": ""
+        },
+        {
+            "input": "\"NNNNN\"",
+            "expected": ""
+        },
+        {
+            "input": "\"YYYY\"",
+            "expected": ""
+        }
+    ]
+}

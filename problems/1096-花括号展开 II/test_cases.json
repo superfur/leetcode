@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "\"{a,b}{c,{d,e}}\"",
+            "expected": ""
+        },
+        {
+            "input": "\"{{a,z},a{b,c},{ab,z}}\"",
+            "expected": ""
+        }
+    ]
+}

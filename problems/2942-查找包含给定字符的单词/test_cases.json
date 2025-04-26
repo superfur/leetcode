@@ -1,0 +1,28 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"leet\",\"code\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"e\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"abc\",\"bcd\",\"aaaa\",\"cbc\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"a\"",
+            "expected": ""
+        },
+        {
+            "input": "[\"abc\",\"bcd\",\"aaaa\",\"cbc\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"z\"",
+            "expected": ""
+        }
+    ]
+}

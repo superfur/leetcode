@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "\"aA\"",
+            "expected": ""
+        },
+        {
+            "input": "\"aAAbbbb\"",
+            "expected": ""
+        },
+        {
+            "input": "\"z\"",
+            "expected": ""
+        },
+        {
+            "input": "\"ZZ\"",
+            "expected": ""
+        }
+    ]
+}

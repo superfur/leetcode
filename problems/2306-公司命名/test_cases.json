@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"coffee\",\"donuts\",\"time\",\"toffee\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"lack\",\"back\"]",
+            "expected": ""
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "\"USA\"",
+            "expected": ""
+        },
+        {
+            "input": "\"FlaG\"",
+            "expected": ""
+        }
+    ]
+}

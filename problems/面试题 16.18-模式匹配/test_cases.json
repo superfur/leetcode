@@ -1,0 +1,36 @@
+{
+    "test_cases": [
+        {
+            "input": "\"abba\"",
+            "expected": ""
+        },
+        {
+            "input": "\"dogcatcatdog\"",
+            "expected": ""
+        },
+        {
+            "input": "\"abba\"",
+            "expected": ""
+        },
+        {
+            "input": "\"dogcatcatfish\"",
+            "expected": ""
+        },
+        {
+            "input": "\"aaaa\"",
+            "expected": ""
+        },
+        {
+            "input": "\"dogcatcatdog\"",
+            "expected": ""
+        },
+        {
+            "input": "\"abba\"",
+            "expected": ""
+        },
+        {
+            "input": "\"dogdogdogdog\"",
+            "expected": ""
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"W\",\"N\",\"ES\",\"W\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"NS\",\"WE\",\"SE\",\"EW\"]",
+            "expected": ""
+        }
+    ]
+}

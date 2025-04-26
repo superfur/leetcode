@@ -1,0 +1,40 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"hello\",\"i\",\"am\",\"leetcode\",\"hello\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"hello\"",
+            "expected": ""
+        },
+        {
+            "input": "1",
+            "expected": ""
+        },
+        {
+            "input": "[\"a\",\"b\",\"leetcode\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"leetcode\"",
+            "expected": ""
+        },
+        {
+            "input": "0",
+            "expected": ""
+        },
+        {
+            "input": "[\"i\",\"eat\",\"leetcode\"]",
+            "expected": ""
+        },
+        {
+            "input": "\"ate\"",
+            "expected": ""
+        },
+        {
+            "input": "0",
+            "expected": ""
+        }
+    ]
+}

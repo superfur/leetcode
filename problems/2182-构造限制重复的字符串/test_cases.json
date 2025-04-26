@@ -1,0 +1,20 @@
+{
+    "test_cases": [
+        {
+            "input": "\"cczazcc\"",
+            "expected": ""
+        },
+        {
+            "input": "3",
+            "expected": ""
+        },
+        {
+            "input": "\"aababab\"",
+            "expected": ""
+        },
+        {
+            "input": "2",
+            "expected": ""
+        }
+    ]
+}

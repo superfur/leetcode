@@ -1,0 +1,12 @@
+{
+    "test_cases": [
+        {
+            "input": "[\"abcd\",\"cdab\",\"cbad\",\"xyzz\",\"zzxy\",\"zzyx\"]",
+            "expected": ""
+        },
+        {
+            "input": "[\"abc\",\"acb\",\"bac\",\"bca\",\"cab\",\"cba\"]",
+            "expected": ""
+        }
+    ]
+}
