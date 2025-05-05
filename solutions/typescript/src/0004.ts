@@ -1,11 +1,11 @@
 function findMedianSortedArrays(nums1: number[], nums2: number[]): number {
-    const merged = [...nums1, ...nums2].sort((a, b) => a - b);
-    const middle = Math.floor(merged.length / 2);
-    if (merged.length % 2 === 1) {
-        return merged[middle];
-    } else {
-        return (merged[middle - 1] + merged[middle]) / 2;
-    }
+  const merged = [...nums1, ...nums2].sort((a, b) => a - b);
+  const middle = Math.floor(merged.length / 2);
+  if (merged.length % 2 === 1) {
+    return merged[middle];
+  } else {
+    return (merged[middle - 1] + merged[middle]) / 2;
+  }
 }
 
 export default findMedianSortedArrays;
