@@ -19,6 +19,6 @@ func twoSum(nums []int, target int) []int {
         // 将当前数字和索引存入map
         numMap[num] = i
     }
-    // 如果没有找到解，返回空切片
+    // 如果没有找到解，返回空切片·
     return []int{}
 }
