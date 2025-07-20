@@ -1,45 +1,26 @@
-
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
 class Solution {
-    public List<List<Integer>> fourSum(int[] nums, int target) {
-        Arrays.sort(nums);
-        List<List<Integer>> result = new ArrayList<>();
-        
-        // 如果数组长度小于4，无法找到四数之和
-        if (nums.length < 4) {
-            return result;
+    public ListNode removeNthFromEnd(ListNode head, int n) {
+        ListNode dummy = new ListNode(0, head);
+        ListNode fast = dummy;
+        ListNode slow = dummy;
+        for (int i = 0; i < n; i++) {
+            fast = fast.next;
         }
-        
-        for (int i = 0; i < nums.length - 3; i++) {
-            if (i > 0 && nums[i] == nums[i - 1]) {
-                continue;
-            }
-            for (int j = i + 1; j < nums.length - 2; j++) {
-                if (j > i + 1 && nums[j] == nums[j - 1]) {
-                    continue;
-                }
-                int left = j + 1;
-                int right = nums.length - 1;
-                while (left < right) {
-                    // 使用long来避免整数溢出
-                    long sum = (long)nums[i] + nums[j] + nums[left] + nums[right];
-                    if (sum == target) {
-                        result.add(Arrays.asList(nums[i], nums[j], nums[left], nums[right]));
-                        while (left < right && nums[left] == nums[left + 1]) {
-                            left++;
-                        }
-                        while (left < right && nums[right] == nums[right - 1]) {
-                            right--;
-                        }
-                        left++;
-                        right--;
-                    } else if (sum < target) {
-                        left++;
-                    } else {
-                        right--;
-                    }
-                }
-            }
+        while (fast.next != null) {
+            fast = fast.next;
+            slow = slow.next;
         }
-        return result;
+        slow.next = slow.next.next;
+        return dummy.next;
     }
 }
