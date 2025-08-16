@@ -22,7 +22,7 @@ impl Solution {
         
         let mut dummy = ListNode::new(0);
         let mut prev = &mut dummy;
-        let mut current = head;
+        let mut current = head;·
         
         while let Some(mut curr) = current {
             if let Some(mut next) = curr.next.take() {
@@ -33,7 +33,7 @@ impl Solution {
                 next.next = Some(curr);
                 prev.next = Some(next);
                 
-                // 移动到下一对
+                // 移动到下一对·
                 prev = prev.next.as_mut().unwrap().next.as_mut().unwrap();
                 current = next_next;
             } else {
