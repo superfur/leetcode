@@ -1,63 +1,80 @@
+import java.util.*;
+
 class Solution {
     /**
-     * 外观数列：递归应用行程长度编码（RLE）
-     * 算法：从"1"开始，每次迭代对前一个结果进行RLE编码
-     * 例如：
-     * n=1: "1"
-     * n=2: "11" (一个1)
-     * n=3: "21" (两个1)
-     * n=4: "1211" (一个2，一个1)
-     * n=5: "111221" (一个1，一个2，两个1)
+     * 组合总和 - 回溯算法
+     * 找出所有可以使数字和为目标数 target 的不同组合
+     * 同一个数字可以无限制重复被选取
      * 
-     * 时间复杂度：O(n * L)，其中L是当前字符串的长度
-     * 空间复杂度：O(L)，用于存储结果字符串
+     * 算法思路：
+     * 1. 使用回溯算法（DFS）遍历所有可能的组合
+     * 2. 每次可以选择当前数字或跳过，选择当前数字时可以重复选择
+     * 3. 当和等于 target 时，记录当前组合
+     * 4. 当和大于 target 时，剪枝返回
+     * 5. 通过起始索引避免重复组合
+     * 
+     * 时间复杂度：O(S)，S 是所有可行解的长度之和
+     * 空间复杂度：O(target)，递归栈的深度最多为 target
+     * 
+     * @param candidates 候选数字数组（无重复元素）
+     * @param target 目标和
+     * @return 所有和为 target 的不同组合
      */
-    public String countAndSay(int n) {
-        // 基础情况
-        if (n == 1) {
-            return "1";
-        }
+    public List<List<Integer>> combinationSum(int[] candidates, int target) {
+        List<List<Integer>> result = new ArrayList<>();
+        List<Integer> path = new ArrayList<>();
         
-        // 从"1"开始迭代
-        String result = "1";
-        
-        // 迭代n-1次，每次对当前结果进行RLE编码
-        for (int i = 2; i <= n; i++) {
-            result = runLengthEncode(result);
-        }
+        backtrack(candidates, target, 0, 0, path, result);
         
         return result;
     }
     
     /**
-     * 对字符串进行行程长度编码
-     * 例如："111221" -> "312211" (三个1，两个2，一个1)
+     * 回溯函数
+     * 
+     * @param candidates 候选数字数组
+     * @param target 目标和
+     * @param start 当前搜索的起始索引，避免重复组合
+     * @param currentSum 当前路径的和
+     * @param path 当前路径
+     * @param result 存储所有有效组合的结果集
      */
-    private String runLengthEncode(String s) {
-        if (s == null || s.isEmpty()) {
-            return "";
+    private void backtrack(
+        int[] candidates,
+        int target,
+        int start,
+        int currentSum,
+        List<Integer> path,
+        List<List<Integer>> result
+    ) {
+        // 找到一个有效组合
+        if (currentSum == target) {
+            result.add(new ArrayList<>(path)); // 复制当前路径
+            return;
         }
         
-        StringBuilder builder = new StringBuilder(s.length() * 2);
+        // 剪枝：当前和已经超过目标值
+        if (currentSum > target) {
+            return;
+        }
         
-        int i = 0;
-        while (i < s.length()) {
-            // 当前字符
-            char currentChar = s.charAt(i);
-            int count = 1;
+        // 从 start 开始遍历，避免重复组合
+        for (int i = start; i < candidates.length; i++) {
+            int num = candidates[i];
             
-            // 统计连续相同字符的数量
-            while (i + 1 < s.length() && s.charAt(i + 1) == currentChar) {
-                count++;
-                i++;
+            // 剪枝优化：如果加上当前数字已经超过目标，跳过
+            if (currentSum + num > target) {
+                continue;
             }
             
-            // 写入：计数 + 字符
-            builder.append(count).append(currentChar);
+            // 选择当前数字
+            path.add(num);
             
-            i++;
+            // 递归：注意这里是 i 而不是 i+1，因为可以重复使用当前数字
+            backtrack(candidates, target, i, currentSum + num, path, result);
+            
+            // 撤销选择（回溯）
+            path.remove(path.size() - 1);
         }
-        
-        return builder.toString();
     }
 }
