@@ -27,41 +27,21 @@ impl Solution {
      */
     pub fn my_pow(x: f64, n: i32) -> f64 {
         // 处理 i32::MIN 的特殊情况：直接取反会溢出
-        // 使用 i64 避免溢出，或者特殊处理
+        // 使用 i64 避免溢出
         let n_long = n as i64;
+        let mut exp = if n_long < 0 {
+            (-n_long) as u64
+        } else {
+            n_long as u64
+        };
         
-        // 处理负数指数：转换为正数，最后取倒数
-        if n_long < 0 {
-            return 1.0 / Self::fast_pow(x, -n_long as u64);
-        }
-        
-        Self::fast_pow(x, n_long as u64)
-    }
-    
-    /*
-     * 使用快速幂算法计算 x 的 n 次幂（n >= 0，迭代实现）
-     * 
-     * 算法原理：
-     * 将指数 n 表示为二进制：n = b_k * 2^k + b_{k-1} * 2^{k-1} + ... + b_0
-     * 则 x^n = x^{b_k * 2^k} * x^{b_{k-1} * 2^{k-1}} * ... * x^{b_0}
-     * 
-     * 迭代过程：
-     * - 从低位到高位遍历 n 的每一位
-     * - 如果当前位为 1，将当前 base 乘入结果
-     * - 每次迭代 base = base^2，相当于处理更高位
-     */
-    fn fast_pow(x: f64, n: u64) -> f64 {
         // 边界情况
-        if n == 0 {
+        if exp == 0 {
             return 1.0;
-        }
-        if n == 1 {
-            return x;
         }
         
         let mut result = 1.0;
         let mut base = x;
-        let mut exp = n;
         
         // 迭代计算：将指数转为二进制，逐位处理
         while exp > 0 {
@@ -75,6 +55,11 @@ impl Solution {
             exp >>= 1;
         }
         
-        result
+        // 如果原指数为负数，返回倒数
+        if n_long < 0 {
+            1.0 / result
+        } else {
+            result
+        }
     }
 }
