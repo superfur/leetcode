@@ -14,7 +14,7 @@
  * 
  * Do not return anything, modify matrix in-place instead.
  */
-function rotate(matrix: number[][]): void {
+ function rotate(matrix: number[][]): void {
     const n = matrix.length;
     if (n === 0) return;
     
