@@ -41,7 +41,6 @@ func merge(intervals [][]int) [][]int {
 	for i := 1; i < len(intervals); i++ {
 		start := intervals[i][0]
 		end := intervals[i][1]
-		curStart := current[0]
 		curEnd := current[1]
 
 		// 没有重叠，推入当前区间，并开始新的区间
