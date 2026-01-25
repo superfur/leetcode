@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "new": "python3 scripts/new_solution.py --help"
   },
   "devDependencies": {
     "@types/jest": "^29.5.14",

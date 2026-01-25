@@ -19,6 +19,11 @@ Thumbs.db
 .env.local
 .env.*.local
 
+# LeetCode Config (contains sensitive cookies)
+.leetcode_config.json
+problems.json
+submissions.json
+
 # Build output
 dist/
 build/
