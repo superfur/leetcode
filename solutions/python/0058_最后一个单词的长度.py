@@ -26,15 +26,8 @@ def 最后一个单词的长度(s: str) -> int:
     return length
 
 
-if __name__ == "__main__":
-    # 测试用例
-    test_cases = [
-        {"input": "Hello World", "expected": 5},
-        {"input": "   fly me   to   the moon  ", "expected": 4},
-        {"input": "luffy is still joyboy", "expected": 6},
-    ]
-    for i, test_case in enumerate(test_cases, 1):
-        s, expected = test_case["input"], test_case["expected"]
-        result = 最后一个单词的长度(s)
-        status = "通过" if result == expected else "失败"
-        print(f"测试用例 {i}: {status} (输入: {s!r}, 期望: {expected}, 实际: {result})")
+class Solution:
+    """LeetCode 驱动需要的 Solution 类"""
+
+    def lengthOfLastWord(self, s: str) -> int:
+        return 最后一个单词的长度(s)
