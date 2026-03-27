@@ -1,5 +1,3 @@
-package com.leetcode;
-
 import java.util.Arrays;
 
 public class Solution {
@@ -30,11 +28,5 @@ public class Solution {
         }
 
         return dp[n - 1];
-    }
-
-    /** 兼容 Object... args 的入口 */
-    public Object 不同路径Ii(Object... args) {
-        int[][] grid = (int[][]) args[0];
-        return uniquePathsWithObstacles(grid);
     }
 }
