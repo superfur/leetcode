@@ -1,20 +1,24 @@
 {
     "test_cases": [
         {
-            "input": "\"11\"",
-            "expected": ""
+            "input": ["11", "1"],
+            "expected": "100"
         },
         {
-            "input": "\"1\"",
-            "expected": ""
+            "input": ["1010", "1011"],
+            "expected": "10101"
         },
         {
-            "input": "\"1010\"",
-            "expected": ""
+            "input": ["0", "0"],
+            "expected": "0"
         },
         {
-            "input": "\"1011\"",
-            "expected": ""
+            "input": ["1", "1"],
+            "expected": "10"
+        },
+        {
+            "input": ["1111", "1111"],
+            "expected": "11110"
         }
     ]
 }
