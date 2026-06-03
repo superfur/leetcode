@@ -1,28 +1,31 @@
 {
     "test_cases": [
         {
-            "input": "[\"This\", \"is\", \"an\", \"example\", \"of\", \"text\", \"justification.\"]",
-            "expected": ""
+            "input": [["This", "is", "an", "example", "of", "text", "justification."], 16],
+            "expected": [
+                "This    is    an",
+                "example  of text",
+                "justification.  "
+            ]
         },
         {
-            "input": "16",
-            "expected": ""
+            "input": [["What","must","be","acknowledgment","shall","be"], 16],
+            "expected": [
+                "What   must   be",
+                "acknowledgment  ",
+                "shall be        "
+            ]
         },
         {
-            "input": "[\"What\",\"must\",\"be\",\"acknowledgment\",\"shall\",\"be\"]",
-            "expected": ""
-        },
-        {
-            "input": "16",
-            "expected": ""
-        },
-        {
-            "input": "[\"Science\",\"is\",\"what\",\"we\",\"understand\",\"well\",\"enough\",\"to\",\"explain\",\"to\",\"a\",\"computer.\",\"Art\",\"is\",\"everything\",\"else\",\"we\",\"do\"]",
-            "expected": ""
-        },
-        {
-            "input": "20",
-            "expected": ""
+            "input": [["Science","is","what","we","understand","well","enough","to","explain","to","a","computer.","Art","is","everything","else","we","do"], 20],
+            "expected": [
+                "Science  is  what we",
+                "understand      well",
+                "enough to explain to",
+                "a  computer.  Art is",
+                "everything  else  we",
+                "do                  "
+            ]
         }
     ]
 }
