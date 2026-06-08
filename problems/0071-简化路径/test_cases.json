@@ -1,24 +1,24 @@
 {
     "test_cases": [
         {
-            "input": "\"/home/\"",
-            "expected": ""
+            "input": "/home/",
+            "expected": "/home"
         },
         {
-            "input": "\"/home//foo/\"",
-            "expected": ""
+            "input": "/home//foo/",
+            "expected": "/home/foo"
         },
         {
-            "input": "\"/home/user/Documents/../Pictures\"",
-            "expected": ""
+            "input": "/home/user/Documents/../Pictures",
+            "expected": "/home/user/Pictures"
         },
         {
-            "input": "\"/../\"",
-            "expected": ""
+            "input": "/../",
+            "expected": "/"
         },
         {
-            "input": "\"/.../a/../b/c/../d/./\"",
-            "expected": ""
+            "input": "/.../a/../b/c/../d/./",
+            "expected": "/.../b/d"
         }
     ]
 }
