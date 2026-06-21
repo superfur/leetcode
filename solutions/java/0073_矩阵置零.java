@@ -1,5 +1,3 @@
-package com.leetcode;
-
 public class Solution {
     /**
      * 73. 矩阵置零
