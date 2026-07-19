@@ -44,6 +44,11 @@ coverage/
 # TypeScript
 *.tsbuildinfo
 
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
 # Others
 .cache/
 .next/

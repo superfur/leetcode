@@ -77,49 +77,69 @@ npm run test:watch
 
 ### 连接 LeetCode
 
-使用 `python3 scripts/sync_and_test.py` 脚本连接 LeetCode，支持同步数据、远程测试和提交代码。
+使用 `python scripts/sync_and_test.py` 脚本连接 LeetCode，支持同步数据、远程测试和提交代码。
+**默认对接 leetcode.cn**（可在命令中用 `--site leetcode.com` 切换到国际站）。
 
-#### 1. 登录配置
+#### 0. 安装依赖
 
 ```bash
-# 配置 leetcode.com 登录信息
-python3 scripts/sync_and_test.py login --site leetcode.com
+# 安装 Python 依赖
+pip install -r requirements.txt
+
+# 安装浏览器自动化所需的 chromium（用于浏览器登录）
+python -m playwright install chromium
 ```
 
-按照提示从浏览器复制 `csrftoken` 和 `LEETCODE_SESSION`：
+> 如果只打算用 cookie 方式登录，可跳过 `playwright install chromium`，但 `requests` 仍需安装。
 
-1. 登录 leetcode.com
-2. 打开开发者工具 (F12) -> Application/存储
-3. 复制 Cookies 中的 `csrftoken` 和 `LEETCODE_SESSION`
+#### 1. 登录
+
+**方式 A：浏览器登录（推荐，支持扫码 / 短信 / 账号密码 / 第三方）**
+
+```bash
+python scripts/sync_and_test.py login
+```
+
+脚本会弹出一个浏览器窗口，你在里面用任意方式登录 leetcode.cn，登录成功后脚本自动捕获 cookie 并保存，无需手动复制。约 30 秒内未登录会提示继续等待，最长 5 分钟。
+
+**方式 B：手动粘贴 Cookie**
+
+```bash
+python scripts/sync_and_test.py login --method cookie
+```
+
+按提示从浏览器开发者工具 (F12) → Application → Cookies 复制 `csrftoken` 和 `LEETCODE_SESSION` 的值。
+
+> 登录其它站点：`--site leetcode.com`。
 
 #### 2. 查看状态
 
 ```bash
 # 查看登录状态
-python3 scripts/sync_and_test.py status
+python scripts/sync_and_test.py status
 
 # 查看提交历史
-python3 scripts/sync_and_test.py submissions
+python scripts/sync_and_test.py submissions
 ```
 
 #### 3. 同步数据
 
 ```bash
 # 同步题目列表和解决状态
-python3 scripts/sync_and_test.py sync
+python scripts/sync_and_test.py sync
 ```
 
 #### 4. 测试和提交
 
 ```bash
 # 本地测试 (使用 test_cases.json)
-python3 scripts/sync_and_test.py test "两数之和" --python
+python scripts/sync_and_test.py test "两数之和" --python
 
-# 远程测试 (使用 LeetCode 服务器)
-python3 scripts/sync_and_test.py remote-test "两数之和" --python
+# 远程测试 (使用 LeetCode 服务器，不计入提交)
+python scripts/sync_and_test.py remote-test "两数之和" --python
 
-# 提交代码到 LeetCode
-python3 scripts/sync_and_test.py submit "两数之和" --python
+# 提交代码到 LeetCode (计入提交记录)
+python scripts/sync_and_test.py submit "两数之和" --python
 ```
 
 **支持的编程语言：**
@@ -130,6 +150,8 @@ python3 scripts/sync_and_test.py submit "两数之和" --python
 | Go | `go` |
 | Rust | `rust` |
 | Java | `java` |
+
+> 说明：提交/远程测试会自动拉取题目的真实 `questionId`、按站点映射语言 slug（leetcode.cn 上 `python → python3`、`go → golang`），并使用 GraphQL 查询判题结果。
 
 ## 编程语言版本要求
 

@@ -14,6 +14,11 @@ import sys
 import json
 import time
 from pathlib import Path
+
+# Windows 控制台默认 GBK 编码，输出 ✓/✗ 等 Unicode 符号会崩溃，强制 utf-8
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 from typing import Dict, List, Optional
 
 # 添加当前目录到路径
@@ -29,43 +34,83 @@ from api import LeetCodeAPI, wait_for_result
 ROOT_DIR = Path(__file__).parent.parent
 
 
+# 语言 -> 扩展名
+_LANG_EXT = {"python": "py", "typescript": "ts", "go": "go", "rust": "rs", "java": "java"}
+
+
+def find_code_file(problem: Dict, lang: str):
+    """查找题目对应的代码文件。
+
+    solutions 目录下文件命名不统一（0001.py / 0001_two-sum.py / 0074_搜索二维矩阵.java），
+    这里用精确 + glob 兜底的方式匹配，兼容所有变体。
+    返回 Path 或 None。
+    """
+    ext = _LANG_EXT.get(lang)
+    if not ext:
+        return None
+    folder = ROOT_DIR / "solutions" / lang
+    pid = f"{problem['id']:04d}"
+    # 1) 精确 {id}.ext  2) {id}_{slug}.ext  3) glob {id}*.ext 兜底
+    for name in (f"{pid}.{ext}", f"{pid}_{problem.get('title_slug', '')}.{ext}"):
+        p = folder / name
+        if p.exists():
+            return p
+    matches = sorted(folder.glob(f"{pid}*.{ext}"))
+    return matches[0] if matches else None
+
+
+def add_lang_args(parser, default="python"):
+    """为子命令注册语言参数：--language python，以及 --python/--typescript 等简写。"""
+    parser.add_argument("--language", default=default,
+                        choices=["python", "typescript", "go", "rust", "java"],
+                        help="编程语言")
+    for short, val in (("--python", "python"), ("--typescript", "typescript"),
+                       ("--go", "go"), ("--rust", "rust"), ("--java", "java")):
+        parser.add_argument(short, dest="language", action="store_const", const=val)
+
+
+def _ensure_english_slug(api, problem):
+    """本地 title_slug 可能是中文目录名；leetcode API 需要英文 slug，按题号查并更新。"""
+    slug = problem.get("title_slug", "")
+    if slug and not slug.isascii():
+        en = api.get_slug_by_id(problem["id"])
+        if en:
+            problem["title_slug"] = en
+        else:
+            print(f"[!] 无法获取题目 #{problem['id']} 的英文 slug (仍用 '{slug}')")
+    return problem.get("title_slug")
+
+
 def cmd_login(args):
     """登录配置命令"""
-    print("=" * 50)
-    print("LeetCode 登录配置")
-    print("=" * 50)
-    print()
-    print("请按照以下步骤获取 Cookie:")
-    print("1. 在浏览器中登录 LeetCode (leetcode.com)")
-    print("2. 打开开发者工具 (F12)")
-    print("3. 切换到 Application/存储 标签")
-    print("4. 在 Cookies 中找到 csrftoken 和 LEETCODE_SESSION")
-    print("5. 复制它们的值粘贴到这里")
-    print()
+    site = args.site or None
+    method = getattr(args, "method", None) or "browser"
 
-    site = args.site or "leetcode.com"
-    print(f"当前配置站点: {site}")
-    print()
+    print("=" * 56)
+    print("LeetCode 登录")
+    print("=" * 56)
 
-    csrftoken = input("请输入 csrftoken: ").strip()
-    session = input("请输入 LEETCODE_SESSION: ").strip()
+    if method == "cookie":
+        from auth import cookie_login_and_save
+        ok = cookie_login_and_save(site)
+    else:
+        from auth import login_and_save
+        ok = login_and_save(site)
 
-    if not csrftoken or not session:
-        print("错误: csrftoken 和 LEETCODE_SESSION 都不能为空")
+    if not ok:
         return False
 
-    set_cookies(site, csrftoken, session)
-
-    # 验证登录
+    # 验证登录状态
     print("\n正在验证登录状态...")
     api = LeetCodeAPI(site)
     if api.is_logged_in():
         user_info = api.get_user_info()
         username = user_info.get("username", "Unknown")
-        print(f"登录成功！用户: {username}")
+        print(f"[OK] 登录有效! 用户: {username}")
         return True
     else:
-        print("登录验证失败，请检查 Cookie 是否正确")
+        print("[!] cookie 已保存，但服务器验证未通过。")
+        print("    可能原因: cookie 失效 / 网络问题 / 站点接口变化。")
         return False
 
 
@@ -196,20 +241,10 @@ def cmd_test(args):
     print(f"题目: #{problem['id']} - {problem['title']}")
 
     # 获取代码文件
-    solutions_dir = ROOT_DIR / "solutions"
-
-    if lang == "python":
-        code_file = solutions_dir / "python" / f"{problem['id']:04d}_{problem['title_slug']}.py"
-    elif lang == "typescript":
-        code_file = solutions_dir / "typescript" / f"{problem['id']:04d}.ts"
-    elif lang == "go":
-        code_file = solutions_dir / "go" / f"{problem['id']:04d}_{problem['title_slug']}.go"
-    elif lang == "rust":
-        code_file = solutions_dir / "rust" / f"{problem['id']:04d}.rs"
-    elif lang == "java":
-        code_file = solutions_dir / "java" / f"{problem['id']:04d}_{problem['title_slug']}.java"
-    else:
-        print(f"不支持的语言: {lang}")
+    code_file = find_code_file(problem, lang)
+    if not code_file:
+        print(f"不支持的语言或代码文件不存在: {lang} / #{problem['id']}")
+        print("请先生成代码文件: python new_solution.py \"题目名称\"")
         return False
 
     if not code_file.exists():
@@ -284,30 +319,11 @@ def cmd_remote_test(args):
     print()
 
     # 获取代码
-    solutions_dir = ROOT_DIR / "solutions"
-
-    if lang == "python":
-        code_file = solutions_dir / "python" / f"{problem['id']:04d}_{problem['title_slug']}.py"
-        lang_slug = "python"
-    elif lang == "typescript":
-        code_file = solutions_dir / "typescript" / f"{problem['id']:04d}.ts"
-        lang_slug = "typescript"
-    elif lang == "go":
-        code_file = solutions_dir / "go" / f"{problem['id']:04d}_{problem['title_slug']}.go"
-        lang_slug = "go"
-    elif lang == "rust":
-        code_file = solutions_dir / "rust" / f"{problem['id']:04d}.rs"
-        lang_slug = "rust"
-    elif lang == "java":
-        code_file = solutions_dir / "java" / f"{problem['id']:04d}_{problem['title_slug']}.java"
-        lang_slug = "java"
-    else:
-        print(f"不支持的语言: {lang}")
+    code_file = find_code_file(problem, lang)
+    if not code_file or not code_file.exists():
+        print(f"代码文件不存在: solutions/{lang}/#{problem['id']}")
         return False
-
-    if not code_file.exists():
-        print(f"代码文件不存在: {code_file}")
-        return False
+    lang_slug = lang  # 通用语言名，api 层会做站点映射 (python->python3 等)
 
     with open(code_file, "r") as f:
         code = f.read()
@@ -334,13 +350,14 @@ def cmd_remote_test(args):
             test_case = detail.get("sampleTestCase", "") or detail.get("exampleTestcases", "")
 
     print("正在提交远程测试...")
+    _ensure_english_slug(api, problem)
     result = api.run_test(problem["title_slug"], lang_slug, code, test_case)
 
     if not result:
         print("提交失败")
         return False
 
-    submission_id = result.get("submission_id")
+    submission_id = result.get("submission_id") or result.get("submissionId")
     print(f"提交ID: {submission_id}")
     print("正在等待结果...")
 
@@ -370,6 +387,8 @@ def cmd_remote_test(args):
             print(f"\n错误信息: {final_result['error']}")
     else:
         print("等待结果超时")
+        print("[!] leetcode.cn 的「运行测试」(test_mode) 提交后通常不会判题，")
+        print("    建议改用正式提交: python sync_and_test.py submit \"" + args.query + "\" --" + args.language)
 
 
 def cmd_submit(args):
@@ -400,30 +419,11 @@ def cmd_submit(args):
     print()
 
     # 获取代码
-    solutions_dir = ROOT_DIR / "solutions"
-
-    if lang == "python":
-        code_file = solutions_dir / "python" / f"{problem['id']:04d}_{problem['title_slug']}.py"
-        lang_slug = "python"
-    elif lang == "typescript":
-        code_file = solutions_dir / "typescript" / f"{problem['id']:04d}.ts"
-        lang_slug = "typescript"
-    elif lang == "go":
-        code_file = solutions_dir / "go" / f"{problem['id']:04d}_{problem['title_slug']}.go"
-        lang_slug = "go"
-    elif lang == "rust":
-        code_file = solutions_dir / "rust" / f"{problem['id']:04d}.rs"
-        lang_slug = "rust"
-    elif lang == "java":
-        code_file = solutions_dir / "java" / f"{problem['id']:04d}_{problem['title_slug']}.java"
-        lang_slug = "java"
-    else:
-        print(f"不支持的语言: {lang}")
+    code_file = find_code_file(problem, lang)
+    if not code_file or not code_file.exists():
+        print(f"代码文件不存在: solutions/{lang}/#{problem['id']}")
         return False
-
-    if not code_file.exists():
-        print(f"代码文件不存在: {code_file}")
-        return False
+    lang_slug = lang  # 通用语言名，api 层会做站点映射 (python->python3 等)
 
     with open(code_file, "r") as f:
         code = f.read()
@@ -439,13 +439,14 @@ def cmd_submit(args):
         return True
 
     print("\n正在提交...")
+    _ensure_english_slug(api, problem)
     result = api.submit_solution(problem["title_slug"], lang_slug, code)
 
     if not result:
         print("提交失败")
         return False
 
-    submission_id = result.get("submission_id")
+    submission_id = result.get("submission_id") or result.get("submissionId")
     print(f"提交ID: {submission_id}")
     print("正在等待结果...")
 
@@ -540,8 +541,14 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 示例:
-    # 登录配置
+    # 浏览器登录 (默认, 弹出浏览器，扫码/短信/账密均可)
     python sync_and_test.py login
+
+    # 手动粘贴 cookie 登录
+    python sync_and_test.py login --method cookie
+
+    # 指定 leetcode.com 站点登录
+    python sync_and_test.py login --site leetcode.com
 
     # 查看状态
     python sync_and_test.py status
@@ -569,9 +576,12 @@ def main():
     subparsers = parser.add_subparsers(dest="command", help="可用命令")
 
     # login 命令
-    login_parser = subparsers.add_parser("login", help="配置 LeetCode 登录信息")
+    login_parser = subparsers.add_parser("login", help="登录 LeetCode")
     login_parser.add_argument("--site", choices=["leetcode.com", "leetcode.cn"],
-                              help="指定站点")
+                              help="指定站点 (默认 leetcode.cn)")
+    login_parser.add_argument("--method", choices=["browser", "cookie"],
+                              default="browser",
+                              help="登录方式: browser=浏览器自动化(默认) / cookie=手动粘贴")
 
     # status 命令
     status_parser = subparsers.add_parser("status", help="查看登录状态")
@@ -583,23 +593,17 @@ def main():
     # test 命令
     test_parser = subparsers.add_parser("test", help="本地测试代码")
     test_parser.add_argument("query", help="题目查询 (编号/名称/slug)")
-    test_parser.add_argument("--language", default="python",
-                             choices=["python", "typescript", "go", "rust", "java"],
-                             help="编程语言")
+    add_lang_args(test_parser)
 
     # remote-test 命令
     remote_parser = subparsers.add_parser("remote-test", help="远程测试代码")
     remote_parser.add_argument("query", help="题目查询 (编号/名称/slug)")
-    remote_parser.add_argument("--language", default="python",
-                               choices=["python", "typescript", "go", "rust", "java"],
-                               help="编程语言")
+    add_lang_args(remote_parser)
 
     # submit 命令
     submit_parser = subparsers.add_parser("submit", help="提交代码到 LeetCode")
     submit_parser.add_argument("query", help="题目查询 (编号/名称/slug)")
-    submit_parser.add_argument("--language", default="python",
-                               choices=["python", "typescript", "go", "rust", "java"],
-                               help="编程语言")
+    add_lang_args(submit_parser)
 
     # submissions 命令
     submissions_parser = subparsers.add_parser("submissions", help="查看提交历史")
