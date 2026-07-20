@@ -1,28 +1,28 @@
 {
     "test_cases": [
         {
-            "input": "\"ADOBECODEBANC\"",
+            "input": { "s": "ADOBECODEBANC", "t": "ABC" },
+            "expected": "BANC"
+        },
+        {
+            "input": { "s": "a", "t": "a" },
+            "expected": "a"
+        },
+        {
+            "input": { "s": "a", "t": "aa" },
             "expected": ""
         },
         {
-            "input": "\"ABC\"",
-            "expected": ""
+            "input": { "s": "ab", "t": "b" },
+            "expected": "b"
         },
         {
-            "input": "\"a\"",
-            "expected": ""
+            "input": { "s": "bba", "t": "ab" },
+            "expected": "ba"
         },
         {
-            "input": "\"a\"",
-            "expected": ""
-        },
-        {
-            "input": "\"a\"",
-            "expected": ""
-        },
-        {
-            "input": "\"aa\"",
-            "expected": ""
+            "input": { "s": "bbaac", "t": "abc" },
+            "expected": "baac"
         }
     ]
 }
