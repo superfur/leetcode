@@ -6,23 +6,23 @@ impl Solution {
             return false;
         }
 
-        let m = matrix.len();
         let n = matrix[0].len();
+        let total = matrix.len() * n;
         let mut left = 0usize;
-        let mut right = m * n - 1;
+        let mut right = total;
 
-        while left <= right {
-            let mid = (left + right) / 2;
+        while left < right {
+            let mid = left + (right - left) / 2;
             let (row, col) = (mid / n, mid % n);
             let val = matrix[row][col];
 
-            match val.cmp(&target) {
-                std::cmp::Ordering::Equal => return true,
-                std::cmp::Ordering::Less => left = mid + 1,
-                std::cmp::Ordering::Greater => right = mid - 1,
+            if val < target {
+                left = mid + 1;
+            } else {
+                right = mid;
             }
         }
 
-        false
+        left < total && matrix[left / n][left % n] == target
     }
 }

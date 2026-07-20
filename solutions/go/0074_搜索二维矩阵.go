@@ -25,7 +25,3 @@ func searchMatrix(matrix [][]int, target int) bool {
 
 	return false
 }
-
-func main() {
-	println("搜索二维矩阵")
-}
