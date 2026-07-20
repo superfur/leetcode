@@ -48,7 +48,3 @@ func minWindow(s string, t string) string {
 	}
 	return s[bestLeft : bestLeft+bestLength]
 }
-
-func main() {
-	println("最小覆盖子串")
-}

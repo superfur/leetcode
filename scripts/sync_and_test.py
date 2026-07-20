@@ -325,7 +325,7 @@ def cmd_remote_test(args):
         return False
     lang_slug = lang  # 通用语言名，api 层会做站点映射 (python->python3 等)
 
-    with open(code_file, "r") as f:
+    with open(code_file, "r", encoding="utf-8") as f:
         code = f.read()
 
     print(f"语言: {lang}")
@@ -425,7 +425,7 @@ def cmd_submit(args):
         return False
     lang_slug = lang  # 通用语言名，api 层会做站点映射 (python->python3 等)
 
-    with open(code_file, "r") as f:
+    with open(code_file, "r", encoding="utf-8") as f:
         code = f.read()
 
     print(f"语言: {lang}")

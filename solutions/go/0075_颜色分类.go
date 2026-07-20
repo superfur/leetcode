@@ -18,7 +18,3 @@ func sortColors(nums []int) {
 		}
 	}
 }
-
-func main() {
-	println("颜色分类")
-}
