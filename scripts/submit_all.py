@@ -86,32 +86,46 @@ def _ensure_login(api: LeetCodeAPI) -> bool:
     return True
 
 
-def _submit_one(api: LeetCodeAPI, slug: str, lang: str, code: str, wait: int) -> Dict:
-    """提交一种语言并等结果，返回规范化结果 dict。"""
-    result = api.submit_solution(slug, lang, code)
-    if not result:
-        return {"lang": lang, "ok": False, "error": "提交失败 (无 submission_id)"}
-    submission_id = result.get("submission_id") or result.get("submissionId")
-    print(f"  -> submission_id={submission_id}, 等待判题 (最长 {wait}s)...")
-    final = wait_for_result(submission_id, api, max_wait=wait)
-    if not final:
-        return {"lang": lang, "ok": False, "submission_id": submission_id,
-                "error": "等待结果超时"}
+def _submit_one(api: LeetCodeAPI, slug: str, lang: str, code: str,
+                wait: int, retries: int) -> Dict:
+    """提交一种语言并等结果，返回规范化结果 dict。
 
-    code_n = final.get("status_code")
-    ok = code_n == 10
-    return {
-        "lang": lang,
-        "ok": ok,
-        "status_code": code_n,
-        "status": _STATUS_TEXT.get(code_n, f"状态码 {code_n}"),
-        "submission_id": submission_id,
-        "total_correct": final.get("total_correct"),
-        "total_testcase": final.get("total_testcase"),
-        "runtime": final.get("status_runtime"),
-        "memory": final.get("status_memory"),
-        "error": final.get("error") if not ok else None,
-    }
+    当遇到 leetcode 限流 (HTTP 429) 时，按指数退避重试最多 retries 次。
+    """
+    import time as _time
+    attempt = 0
+    while True:
+        attempt += 1
+        result = api.submit_solution(slug, lang, code)
+        if result is not None:
+            submission_id = result.get("submission_id") or result.get("submissionId")
+            print(f"  -> submission_id={submission_id}, 等待判题 (最长 {wait}s)...")
+            final = wait_for_result(submission_id, api, max_wait=wait)
+            if not final:
+                return {"lang": lang, "ok": False, "submission_id": submission_id,
+                        "error": "等待结果超时"}
+
+            code_n = final.get("status_code")
+            ok = code_n == 10
+            return {
+                "lang": lang,
+                "ok": ok,
+                "status_code": code_n,
+                "status": _STATUS_TEXT.get(code_n, f"状态码 {code_n}"),
+                "submission_id": submission_id,
+                "total_correct": final.get("total_correct"),
+                "total_testcase": final.get("total_testcase"),
+                "runtime": final.get("status_runtime"),
+                "memory": final.get("status_memory"),
+                "error": final.get("error") if not ok else None,
+            }
+
+        # 提交失败：可能是 429 限流，按 retry 重试
+        if attempt > retries:
+            return {"lang": lang, "ok": False, "error": "提交失败 (无 submission_id)"}
+        backoff = 10 * attempt
+        print(f"  ! {lang}: 提交被限流/失败，{backoff}s 后重试 ({attempt}/{retries})")
+        _time.sleep(backoff)
 
 
 def main() -> int:
@@ -126,6 +140,10 @@ def main() -> int:
                         help="要提交的语言列表，逗号分隔 (默认 5 种)")
     parser.add_argument("--yes", "-y", action="store_true", help="跳过确认")
     parser.add_argument("--wait", type=int, default=60, help="每次提交等判题的最大秒数")
+    parser.add_argument("--delay", type=int, default=8,
+                        help="每次成功提交之间的间隔秒数，避免触发 LeetCode 限流 (HTTP 429)")
+    parser.add_argument("--retry", type=int, default=3,
+                        help="遇到 429 限流时的重试次数 (每次间隔翻倍)")
     args = parser.parse_args()
 
     # 1. 找题目
@@ -160,7 +178,10 @@ def main() -> int:
     # 5. 遍历语言提交
     langs = [s.strip() for s in args.langs.split(",") if s.strip()]
     results: List[Dict] = []
-    for lang in langs:
+    for idx, lang in enumerate(langs):
+        if idx > 0 and args.delay > 0:
+            import time as _time
+            _time.sleep(args.delay)
         code_file = _find_code_file(problem, lang)
         if not code_file or not code_file.exists():
             print(f"[跳过] {lang}: 代码文件不存在")
@@ -175,16 +196,16 @@ def main() -> int:
 
         print(f"[{lang}] {code_file.name} ({len(code)} chars) -> submit")
         try:
-            r = _submit_one(api, slug, lang, code, args.wait)
+            r = _submit_one(api, slug, lang, code, args.wait, args.retry)
         except Exception as e:  # 网络/JSON 解析异常不中断后续提交
             r = {"lang": lang, "ok": False, "error": f"异常: {e}"}
         results.append(r)
         if r.get("ok"):
-            print(f"  ✓ {lang}: Accepted "
+            print(f"  OK {lang}: Accepted "
                   f"({r.get('total_correct')}/{r.get('total_testcase')}, "
                   f"{r.get('runtime')}, {r.get('memory')})")
         else:
-            print(f"  ✗ {lang}: {r.get('status') or r.get('error')}")
+            print(f"  FAIL {lang}: {r.get('status') or r.get('error')}")
             if r.get("error"):
                 print(f"      {r['error']}")
         print()
@@ -195,11 +216,11 @@ def main() -> int:
     print("=" * 56)
     width = max((len(r["lang"]) for r in results), default=8)
     for r in results:
-        mark = "✓" if r.get("ok") else "✗"
+        mark = "OK  " if r.get("ok") else "FAIL"
         detail = (r.get("status")
                   or r.get("error")
                   or "")
-        line = f"  {mark} {r['lang']:<{width}}  {detail}"
+        line = f"  [{mark}] {r['lang']:<{width}}  {detail}"
         if r.get("ok"):
             line += f"  ({r.get('total_correct')}/{r.get('total_testcase')}, {r.get('runtime')}, {r.get('memory')})"
         print(line)
