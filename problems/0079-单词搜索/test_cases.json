@@ -1,28 +1,24 @@
 {
     "test_cases": [
         {
-            "input": "[[\"A\",\"B\",\"C\",\"E\"],[\"S\",\"F\",\"C\",\"S\"],[\"A\",\"D\",\"E\",\"E\"]]",
-            "expected": ""
+            "input": { "board": [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], "word": "ABCCED" },
+            "expected": true
         },
         {
-            "input": "\"ABCCED\"",
-            "expected": ""
+            "input": { "board": [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], "word": "SEE" },
+            "expected": true
         },
         {
-            "input": "[[\"A\",\"B\",\"C\",\"E\"],[\"S\",\"F\",\"C\",\"S\"],[\"A\",\"D\",\"E\",\"E\"]]",
-            "expected": ""
+            "input": { "board": [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], "word": "ABCB" },
+            "expected": false
         },
         {
-            "input": "\"SEE\"",
-            "expected": ""
+            "input": { "board": [["A"]], "word": "A" },
+            "expected": true
         },
         {
-            "input": "[[\"A\",\"B\",\"C\",\"E\"],[\"S\",\"F\",\"C\",\"S\"],[\"A\",\"D\",\"E\",\"E\"]]",
-            "expected": ""
-        },
-        {
-            "input": "\"ABCB\"",
-            "expected": ""
+            "input": { "board": [["a","b"],["c","d"]], "word": "abcd" },
+            "expected": false
         }
     ]
 }
