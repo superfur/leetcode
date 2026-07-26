@@ -1,12 +1,20 @@
 {
     "test_cases": [
         {
-            "input": "[1,1,1,2,2,3]",
-            "expected": ""
+            "input": { "nums": [1, 1, 1, 2, 2, 3] },
+            "expected": { "length": 5, "prefix": [1, 1, 2, 2, 3] }
         },
         {
-            "input": "[0,0,1,1,1,1,2,3,3]",
-            "expected": ""
+            "input": { "nums": [0, 0, 1, 1, 1, 1, 2, 3, 3] },
+            "expected": { "length": 7, "prefix": [0, 0, 1, 1, 2, 3, 3] }
+        },
+        {
+            "input": { "nums": [1, 2, 3, 4, 5] },
+            "expected": { "length": 5, "prefix": [1, 2, 3, 4, 5] }
+        },
+        {
+            "input": { "nums": [1, 1, 1, 1] },
+            "expected": { "length": 2, "prefix": [1, 1] }
         }
     ]
 }
