@@ -1,28 +1,28 @@
 {
     "test_cases": [
         {
-            "input": "\"great\"",
-            "expected": ""
+            "input": { "s1": "great", "s2": "rgeat" },
+            "expected": true
         },
         {
-            "input": "\"rgeat\"",
-            "expected": ""
+            "input": { "s1": "abcde", "s2": "caebd" },
+            "expected": false
         },
         {
-            "input": "\"abcde\"",
-            "expected": ""
+            "input": { "s1": "a", "s2": "a" },
+            "expected": true
         },
         {
-            "input": "\"caebd\"",
-            "expected": ""
+            "input": { "s1": "a", "s2": "b" },
+            "expected": false
         },
         {
-            "input": "\"a\"",
-            "expected": ""
+            "input": { "s1": "ab", "s2": "ba" },
+            "expected": true
         },
         {
-            "input": "\"a\"",
-            "expected": ""
+            "input": { "s1": "abc", "s2": "cba" },
+            "expected": true
         }
     ]
 }
