@@ -1,16 +1,16 @@
 {
     "test_cases": [
         {
-            "input": "\"12\"",
-            "expected": ""
+            "input": { "s": "12" },
+            "expected": 2
         },
         {
-            "input": "\"226\"",
-            "expected": ""
+            "input": { "s": "226" },
+            "expected": 3
         },
         {
-            "input": "\"06\"",
-            "expected": ""
+            "input": { "s": "06" },
+            "expected": 0
         }
     ]
 }
