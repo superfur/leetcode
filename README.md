@@ -26,6 +26,25 @@ leetcode/
     └── java/               # Java 测试
 ```
 
+## Claude Code 快捷命令
+
+仓库内置了 `leetcode` skill（说"帮我做第 N 题"会自动触发端到端流程）和一组 `/lc:*` 斜杠命令：
+
+| 命令 | 作用 |
+|------|------|
+| `/lc:solve <题号/名称> [语言...]` | 端到端做一道题：读题→生成模板→写代码→本地测试→远程判题 |
+| `/lc:new <题号/名称> [--all/--语言] [-f]` | 生成解法模板 |
+| `/lc:test <题号/名称> [--语言]` | 本地烟雾测试 |
+| `/lc:remote-test <题号/名称> [--语言]` | 远程判题（不计入提交记录） |
+| `/lc:submit <题号/名称> [--语言]` | 提交到 LeetCode（计入提交记录） |
+| `/lc:submit-all <题号> [--langs a,b]` | 一题多语言批量提交 |
+| `/lc:sync [--force]` | 同步题目列表和提交状态 |
+| `/lc:status` | 查看登录状态 |
+| `/lc:login [--method browser/cookie]` | 登录 LeetCode |
+| `/lc:submissions [--limit N]` | 查看提交历史 |
+
+定义文件在 [.claude/skills/leetcode/SKILL.md](.claude/skills/leetcode/SKILL.md) 和 [.claude/commands/lc/](.claude/commands/lc/)。
+
 ## 快速开始
 
 ### 生成新题目解法
