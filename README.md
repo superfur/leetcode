@@ -42,8 +42,9 @@ leetcode/
 | `/lc:status` | 查看登录状态 |
 | `/lc:login [--method browser/cookie]` | 登录 LeetCode |
 | `/lc:submissions [--limit N]` | 查看提交历史 |
+| `/gcp [自定义 message]` | 一键 git add + commit + push（自动按题号分组、生成规范 commit message） |
 
-定义文件在 [.claude/skills/leetcode/SKILL.md](.claude/skills/leetcode/SKILL.md) 和 [.claude/commands/lc/](.claude/commands/lc/)。
+定义文件在 [.claude/skills/leetcode/SKILL.md](.claude/skills/leetcode/SKILL.md)、[.claude/commands/lc/](.claude/commands/lc/) 和 [.claude/commands/gcp.md](.claude/commands/gcp.md)。
 
 ## 快速开始
 
