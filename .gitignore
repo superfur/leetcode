@@ -1,9 +1,6 @@
-# Node
+# Node (Node 依赖统一用 bun 管理，不用 npm/yarn/pnpm)
 node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
+bun-debug.log*
 
 # Logs
 logs
@@ -40,9 +37,6 @@ coverage/
 *.ntvs*
 *.njsproj
 *.sln
-
-# Optional npm cache
-.npm
 
 # TypeScript
 *.tsbuildinfo

@@ -87,12 +87,18 @@ python3 scripts/new_solution.py --help
 
 ### 运行测试
 
+本仓库 Node 依赖统一用 [bun](https://bun.sh) 管理（不用 npm/yarn），首次使用先装依赖：
+
+```bash
+bun install
+```
+
 ```bash
 # 运行所有测试
-npm test
+bun run test
 
 # 监听模式运行测试
-npm run test:watch
+bun run test:watch
 ```
 
 ### 连接 LeetCode

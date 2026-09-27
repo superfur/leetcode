@@ -33,7 +33,7 @@ description: 在本仓库中端到端完成一道 LeetCode 题目——定位题
    ```
    python scripts/sync_and_test.py test "<query>" --<language>
    ```
-   注意：该本地测试只是"能否运行"的烟雾测试（不会真正灌入 test_cases.json 里的输入），**不能**当作正确性证明。如果是 TypeScript 且 `tests/typescript/<编号>-*.test.ts` 存在对应用例，可用 `npx jest <关键词>` 做更强的本地校验，但先确认该测试文件里的 import 路径与当前 `solutions/typescript/` 下的实际文件路径一致（仓库里部分旧测试文件路径已经过时，import 失败不代表解法错）。
+   注意：该本地测试只是"能否运行"的烟雾测试（不会真正灌入 test_cases.json 里的输入），**不能**当作正确性证明。如果是 TypeScript 且 `tests/typescript/<编号>-*.test.ts` 存在对应用例，可用 `bunx jest <关键词>` 做更强的本地校验（本仓库 Node 依赖统一用 bun 管理），但先确认该测试文件里的 import 路径与当前 `solutions/typescript/` 下的实际文件路径一致（仓库里部分旧测试文件路径已经过时，import 失败不代表解法错）。
 
 6. **远程判题（不计入提交记录）**：确认已登录（`python scripts/sync_and_test.py status`，未登录则提示用户先跑 `/lc:login`），然后对每种目标语言各跑一次：
    ```
